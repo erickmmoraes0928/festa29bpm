@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Painel da Festa 29º BPM</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--color-fg:#16202f;--color-fg-muted:#5b6678;--color-bg:#f3f5f9;--color-panel:#ffffff;--color-border-line:#dfe4ec;
+ --color-ok:#1d7a46;--color-warn:#a8650b;--color-bad:#b3202c;--cds-chart-status-critical:#c0392b;
+ --cds-radius:12px;--cds-pad-xs:4px;--cds-pad-sm:8px;--cds-pad-md:16px;--cds-pad-lg:20px;--cds-pad-xl:40px;
+ --cds-gap-xs:4px;--cds-gap-sm:8px;--cds-gap-md:16px;--cds-gap-lg:24px;--cds-gap-xl:36px;
+ --cds-font-size-caption:.86rem;--cds-font-size-body:1rem;--cds-font-size-heading:1.25rem;--cds-font-weight-medium:600;
+ --cds-dur-slow:.7s;--cds-ease-out:cubic-bezier(.2,.8,.2,1);
+ --font-anthropic-sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--font-anthropic-serif:"Fraunces",Georgia,"Times New Roman",serif;
+ --c0:#1f5aa6;--c1:#d4a017;--c2:#7a8aa3;--c3:#c0392b;--c4:#2e8b57;color-scheme:light}
+@media (prefers-color-scheme: dark){:root{--color-fg:#e8edf5;--color-fg-muted:#9aa6b8;--color-bg:#0d1420;--color-panel:#141d2b;--color-border-line:#26324a;
+ --color-ok:#4cc38a;--color-warn:#e0a84a;--color-bad:#ef6b6b;--cds-chart-status-critical:#ef6b6b;--c0:#5b94e0;--c1:#e9c46a;--c2:#8e9bb1;--c3:#ef6b6b;--c4:#4cc38a;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--color-bg);color:var(--color-fg);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.fx-foot{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);text-align:center}
+
+
+.fx { --fx-navy: #13294d; --fx-navy2: #0b1a33; --fx-gold: #e2b85a; --fx-red: #b3202c;
+  font-family: var(--font-anthropic-sans); color: var(--color-fg); display: grid; gap: var(--cds-gap-xl); max-width: 1180px; margin-inline: auto; padding-block: var(--cds-pad-md) var(--cds-pad-xl); }
+.fx-band { background: radial-gradient(ellipse 80% 140% at 85% 0%, #1f3d6b 0%, var(--fx-navy) 45%, var(--fx-navy2) 100%);
+  color: #fff; border-radius: var(--cds-radius); padding: clamp(20px, 3.5vw, 40px); display: grid; gap: var(--cds-gap-md); position: relative; overflow: hidden; }
+.fx-band::after { content: ""; position: absolute; inset: auto 0 0 0; height: 4px; background: linear-gradient(90deg, var(--fx-gold), #f6dc95 50%, var(--fx-gold)); }
+.fx-eyebrow { font-size: var(--cds-font-size-caption); letter-spacing: .16em; text-transform: uppercase; color: var(--fx-gold); font-weight: var(--cds-font-weight-medium); }
+.fx-head { display: flex; gap: clamp(14px, 2.5vw, 28px); align-items: center; }
+.fx-head img { height: clamp(78px, 11vw, 120px); width: auto; flex: none; filter: drop-shadow(0 6px 14px rgba(0,0,0,.45)); }
+.fx-head > div { display: grid; gap: var(--cds-gap-sm); min-width: 0; }
+@media (max-width: 520px) { .fx-head { flex-direction: column; align-items: flex-start; } }
+.fx-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: clamp(1.9rem, 4.2vw, 3rem); line-height: 1.08; margin: 0; text-wrap: balance; }
+.fx-take { font-size: clamp(1rem, 1.6vw, 1.2rem); line-height: 1.5; max-width: 62ch; margin: 0; color: #e9eef7; }
+.fx-take b { color: #fff; font-weight: 600; }
+.fx-facts { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); margin-top: var(--cds-gap-xs); }
+.fx-fact { border: 1px solid rgba(226,184,90,.55); border-radius: 999px; padding: 6px 14px; font-size: var(--cds-font-size-caption); color: #f3f5fa; background: rgba(255,255,255,.06); }
+.fx-fact strong { color: var(--fx-gold); font-weight: 600; margin-right: 6px; }
+
+.fx-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12.5rem), 1fr)); gap: var(--cds-gap-md); }
+.fx-tile { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: 6px; align-content: start; border-top: 3px solid var(--fx-gold); }
+.fx-tile .k { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); text-transform: uppercase; letter-spacing: .08em; }
+.fx-tile .v { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: clamp(2rem, 3.6vw, 2.6rem); line-height: 1.05; font-variant-numeric: tabular-nums; }
+.fx-tile .s { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.45; }
+.fx-tile .s b { color: var(--color-fg); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+.fx-sec { display: grid; gap: var(--cds-gap-md); }
+.fx-h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; display: flex; align-items: baseline; gap: 10px; }
+.fx-h2::before { content: ""; width: 10px; height: 10px; border-radius: 2px; background: var(--fx-gold); flex: none; transform: translateY(-1px); }
+.fx-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+.fx-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: var(--cds-gap-sm); align-content: start; min-width: 0; }
+.fx-card h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: 0; }
+.fx-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; line-height: 1.5; }
+
+.fx-bars { display: grid; gap: 12px; min-height: 9rem; }
+.fx-bar { display: grid; grid-template-columns: minmax(9rem, 13rem) 1fr auto; align-items: center; gap: 12px; font-size: var(--cds-font-size-caption); }
+.fx-bar .lab { color: var(--color-fg); }
+.fx-bar .track { height: 22px; background: color-mix(in srgb, var(--color-fg) 6%, transparent); border-radius: var(--cds-radius); overflow: hidden; }
+.fx-bar .fill { height: 100%; border-radius: var(--cds-radius); }
+.fx-bar .val { font-variant-numeric: tabular-nums; font-weight: 600; min-width: 6.5rem; text-align: right; }
+@media (max-width: 520px) { .fx-bar { grid-template-columns: 1fr auto; } .fx-bar .track { grid-column: 1 / -1; grid-row: 2; } }
+
+.fx-tbl-wrap { overflow-x: auto; }
+.fx-tbl { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.fx-tbl th { text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: 8px 10px; border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+.fx-tbl td { padding: 9px 10px; border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+.fx-tbl tr:last-child td { border-bottom: 0; }
+.fx-tbl .num { text-align: right; }
+.fx-tall { max-height: 34rem; overflow: auto; }
+.fx-tall th { position: sticky; top: 0; background: var(--color-panel); }
+.fx-pill { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 0.72rem; font-weight: 600; letter-spacing: .03em; white-space: nowrap; border: 1px solid currentColor; }
+.fx-pill.ok { color: var(--color-ok); } .fx-pill.warn { color: var(--color-warn); } .fx-pill.bad { color: var(--color-bad); } .fx-pill.mut { color: var(--color-fg-muted); }
+.fx-chips { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); }
+.fx-chip { display: inline-flex; align-items: baseline; gap: 8px; padding: 8px 14px; border-radius: var(--cds-radius); background: color-mix(in srgb, var(--color-fg) 5%, transparent); font-size: var(--cds-font-size-caption); }
+.fx-chip b { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: 1.5rem; font-variant-numeric: tabular-nums; }
+.fx-free { display: grid; gap: 10px; }
+.fx-free div { display: flex; gap: 10px; align-items: baseline; font-size: var(--cds-font-size-caption); line-height: 1.5; }
+.fx-free div::before { content: "✓"; color: var(--color-ok); font-weight: 700; }
+.fx-fail { display: flex; align-items: center; justify-content: center; gap: 8px; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-height: inherit; }
+.fx-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+@media (prefers-reduced-motion: no-preference) {
+  .fx-bar .fill { animation: fxgrow var(--cds-dur-slow) var(--cds-ease-out) both; transform-origin: left; }
+  @keyframes fxgrow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+}
+</style></head>
+<body>
+
+<div class="fx">
+  <header class="fx-band" id="topo">
+    <div class="fx-head">
+      <img src="brasao.png" alt="Brasão do 29º BPM">
+      <div>
+        <div class="fx-eyebrow">Festa de Fim de Ano · 29º BPM · posição em <span id="fx-data">—</span></div>
+        <h1 class="fx-title">Painel de controle da festa</h1>
+      </div>
+    </div>
+    <p class="fx-take">Já arrecadamos <b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=total_entradas">—</b>, com <b data-draw="ind" data-fmt="int" data-source="indicadores" data-field="valor" data-where="indicador=adesoes">—</b> adesões e <b data-draw="ind" data-fmt="int" data-source="indicadores" data-field="valor" data-where="indicador=pessoas">—</b> pessoas previstas. O buffet está estimado em <b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=custo_buffet">—</b>. Adesões em atraso: <b data-draw="ind" data-fmt="int" data-source="indicadores" data-field="valor" data-where="indicador=atrasados">—</b>.</p>
+    <div class="fx-facts">
+      <span class="fx-fact"><strong>Data</strong>23/12/2026, quarta-feira</span>
+      <span class="fx-fact"><strong>Início</strong>15h</span>
+      <span class="fx-fact"><strong>Local</strong>Espaço Orlandu’s · Haras Orlandus</span>
+      <span class="fx-fact"><strong>Show</strong>Matheus Melo · part. Júnior &amp; Gustavo</span>
+    </div>
+  </header>
+
+  <section class="fx-tiles" aria-label="Indicadores principais">
+    <div class="fx-tile">
+      <div class="k">Adesões</div>
+      <div class="v" data-draw="ind" data-fmt="int" data-source="indicadores" data-field="valor" data-where="indicador=adesoes">—</div>
+      <div class="s"><b data-draw="ind" data-fmt="int" data-source="indicadores" data-field="valor" data-where="indicador=pessoas">—</b> pessoas com as famílias</div>
+    </div>
+    <div class="fx-tile">
+      <div class="k">Total arrecadado</div>
+      <div class="v" data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=total_entradas">—</div>
+      <div class="s"><b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=arrecadado_adesoes">—</b> de adesões e <b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=doacoes">—</b> de doações</div>
+    </div>
+    <div class="fx-tile">
+      <div class="k">Valor com pagamento integral</div>
+      <div class="v" data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=receita_prevista">—</div>
+      <div class="s">Todas as adesões quitadas. Somando as doações: <b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=total_integral">—</b></div>
+    </div>
+    <div class="fx-tile">
+      <div class="k">Buffet estimado</div>
+      <div class="v" data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=custo_buffet">—</div>
+      <div class="s">R$ 80 adulto, R$ 40 adolescente de 12 a 17 anos, grátis até 11 anos</div>
+    </div>
+    <div class="fx-tile">
+      <div class="k">Caixa previsto após o buffet</div>
+      <div class="v" data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=caixa_apos_buffet">—</div>
+      <div class="s">Todas as adesões quitadas mais as doações, menos o buffet. Ainda falta descontar o chopp.</div>
+    </div>
+  </section>
+
+  <section class="fx-sec" id="financeiro">
+    <h2 class="fx-h2">Financeiro</h2>
+    <div class="fx-grid">
+      <div class="fx-card">
+        <h3>Entradas e compromissos</h3>
+        <p class="fx-note">Valores em reais. As parcelas a receber vencem até 07/12, prazo final de adesão.</p>
+        <div class="fx-bars" data-draw="fin" data-source="indicadores"></div>
+      </div>
+      <div class="fx-card">
+        <h3>Situação das adesões</h3>
+        <p class="fx-note">Pagamento em 3 parcelas de R$ 120 (outubro, novembro e dezembro) ou R$ 360 à vista.</p>
+        <div class="fx-chips">
+          <span class="fx-chip"><b data-draw="ind" data-fmt="int" data-source="indicadores" data-field="valor" data-where="indicador=quitados">—</b> quitadas</span>
+          <span class="fx-chip"><b data-draw="ind" data-fmt="int" data-source="indicadores" data-field="valor" data-where="indicador=em_dia">—</b> em dia</span>
+          <span class="fx-chip"><b data-draw="ind" data-fmt="int" data-source="indicadores" data-field="valor" data-where="indicador=atrasados">—</b> em atraso</span>
+        </div>
+        <p class="fx-note">Ainda a receber das adesões: <b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=a_receber">—</b>. Despesas pagas até agora: <b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=despesas">—</b>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="fx-sec" id="buffet">
+    <h2 class="fx-h2">Participantes e buffet</h2>
+    <div class="fx-grid">
+      <div class="fx-card">
+        <h3>Pessoas por faixa etária</h3>
+        <p class="fx-note">Inclui os policiais. Quem ainda não informou a idade conta como adulto, por segurança.</p>
+        <div class="fx-bars" data-draw="faixas-bar" data-source="faixas"></div>
+      </div>
+      <div class="fx-card">
+        <h3>Custo do buffet por faixa</h3>
+        <p class="fx-note">Orçamento fechado com o buffet em 28/10. Bebidas não estão incluídas.</p>
+        <div class="fx-tbl-wrap">
+          <table class="fx-tbl" data-source="faixas" data-row-key="faixa">
+            <thead><tr><th data-field="faixa">Faixa</th><th data-field="pessoas" class="num">Pessoas</th><th data-field="valor_unitario" class="num">Por pessoa</th><th data-field="total" class="num">Total</th></tr></thead>
+            <tbody data-draw="tab-faixas"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fx-sec" id="adesoes">
+    <h2 class="fx-h2">Adesões por posto e graduação</h2>
+    <div class="fx-card">
+      <p class="fx-note">Pessoas = o policial mais os familiares que vão com ele. Parcelas pagas de um total de 3.</p>
+      <div class="fx-tbl-wrap fx-tall">
+        <table class="fx-tbl" data-source="adesoes" data-row-key="nome">
+          <thead><tr><th data-field="posto">Posto/Grad.</th><th data-field="nome">Nome</th><th data-field="pessoas" class="num">Pessoas</th><th data-field="parcelas" class="num">Parcelas pagas</th><th data-field="situacao">Situação</th></tr></thead>
+          <tbody data-draw="tab-adesoes"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="fx-sec" id="apoios">
+    <h2 class="fx-h2">Doações e brindes</h2>
+    <div class="fx-grid">
+      <div class="fx-card">
+        <h3>Doações em dinheiro</h3>
+        <p class="fx-note">Recebidas e prometidas. O cheque do Péricles ainda vai ser depositado.</p>
+        <div class="fx-tbl-wrap">
+          <table class="fx-tbl" data-source="doacoes" data-row-key="doador">
+            <thead><tr><th data-field="doador">Doador</th><th data-field="situacao">Situação</th><th data-field="forma">Forma</th><th data-field="valor" class="num">Valor</th></tr></thead>
+            <tbody data-draw="tab-doacoes"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="fx-card">
+        <h3>Brindes para o sorteio</h3>
+        <p class="fx-note"><b data-draw="ind" data-fmt="int" data-source="indicadores" data-field="valor" data-where="indicador=brindes">—</b> brindes prometidos, ainda aguardando a entrega.</p>
+        <div class="fx-tbl-wrap">
+          <table class="fx-tbl" data-source="brindes" data-row-key="doador">
+            <thead><tr><th data-field="doador">Doador</th><th data-field="itens">Itens</th><th data-field="qtd" class="num">Qtd</th></tr></thead>
+            <tbody data-draw="tab-brindes"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fx-sec" id="estrutura">
+    <h2 class="fx-h2">Bebidas e estrutura</h2>
+    <div class="fx-grid">
+      <div class="fx-card">
+        <h3>Chopp · Kombi do Escritório</h3>
+        <p class="fx-note">Barris de 50 litros. Os preços ainda serão informados pelo fornecedor.</p>
+        <div class="fx-tbl-wrap">
+          <table class="fx-tbl" data-source="bebidas" data-row-key="item">
+            <thead><tr><th data-field="item">Item</th><th data-field="barris" class="num">Barris</th><th data-field="litros" class="num">Litros</th><th data-field="condicao">Condição</th><th data-field="preco">Preço</th></tr></thead>
+            <tbody data-draw="tab-bebidas"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="fx-card">
+        <h3>Sem custo para a festa</h3>
+        <div class="fx-free">
+          <div>Show de Matheus Melo, com participação de Júnior &amp; Gustavo</div>
+          <div>Estrutura de palco (Dimensão)</div>
+          <div>Salão (Espaço Orlandu’s)</div>
+        </div>
+        <p class="fx-note">Pagamentos pelo Pix (22) 99611-2104, conta Itaú de Erick Martins de Moraes. Comprovantes no WhatsApp do Plantão da P5.</p>
+      </div>
+    </div>
+  </section>
+  <p class="fx-foot">Painel da comissão organizadora · P5 do 29º BPM. Dados da planilha de controle, atualizados pela comissão.</p>
+</div>
+<script>
+(function(){
+const brl=new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0});
+const int=new Intl.NumberFormat('pt-BR');
+const C=['--c0','--c1','--c2','--c3','--c4'].map(v=>'var('+v+')');
+const fmt=(v,k)=>(v===null||v===undefined||v==='')?'A definir':(k==='brl'?brl.format(v):int.format(v));
+const pill=(txt)=>{const s=document.createElement('span');const t=String(txt||'').toUpperCase();
+ s.className='fx-pill '+(/QUITADO|RECEBID/.test(t)?'ok':/EM DIA|PROMETID/.test(t)?'warn':/PENDENTE|DESIST/.test(t)?'bad':'mut');s.textContent=txt;return s;};
+const td=(x,cls)=>{const c=document.createElement('td');if(cls)c.className=cls;if(x instanceof Node)c.append(x);else c.textContent=x;return c;};
+const bars=(el,rows)=>{const max=Math.max(...rows.map(r=>r.v),1);el.replaceChildren(...rows.map(r=>{const w=document.createElement('div');w.className='fx-bar';
+ const a=document.createElement('span');a.className='lab';a.textContent=r.lab;const t=document.createElement('div');t.className='track';
+ const f=document.createElement('div');f.className='fill';f.style.width=(r.v/max*100)+'%';f.style.background=r.color;t.append(f);
+ const v=document.createElement('span');v.className='val';v.textContent=r.txt;w.append(a,t,v);return w;}));};
+const fill=(sel,rows,fn)=>document.querySelectorAll('[data-draw="'+sel+'"]').forEach(tb=>tb.replaceChildren(...rows.map(r=>{const tr=document.createElement('tr');tr.append(...fn(r));return tr;})));
+fetch('dados.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(D=>{
+ const I=D.indicadores;
+ document.getElementById('fx-data').textContent=D.atualizado_em;
+ document.querySelectorAll('[data-draw="ind"]').forEach(el=>{const k=new URLSearchParams(el.dataset.where).get('indicador');el.textContent=(k in I)?fmt(Number(I[k]),el.dataset.fmt):'—';});
+ document.querySelectorAll('[data-draw="fin"]').forEach(el=>bars(el,[
+  ['receita_prevista','Adesões com pagamento integral',C[4]],['arrecadado_adesoes','Arrecadado com adesões',C[0]],
+  ['doacoes','Doações recebidas',C[1]],['a_receber','Parcelas a receber',C[2]],['custo_buffet','Buffet estimado',C[3]]
+ ].map(([k,lab,color])=>({lab,color,v:Number(I[k]||0),txt:brl.format(Number(I[k]||0))}))));
+ document.querySelectorAll('[data-draw="faixas-bar"]').forEach(el=>bars(el,D.faixas.map((r,i)=>({lab:r.faixa,color:C[i],v:Number(r.pessoas),txt:int.format(r.pessoas)+' pessoas'}))));
+ fill('tab-faixas',D.faixas,r=>[td(r.faixa),td(int.format(r.pessoas),'num'),td(r.valor_unitario?brl.format(r.valor_unitario):'Grátis','num'),td(brl.format(r.total),'num')]);
+ const sec=document.getElementById('adesoes');
+ if(!D.adesoes||!D.adesoes.length){if(sec)sec.hidden=true;}
+ else fill('tab-adesoes',D.adesoes,r=>[td(r.posto),td(r.nome),td(int.format(r.pessoas),'num'),td(int.format(r.parcelas)+' de 3','num'),td(pill(r.situacao))]);
+ fill('tab-doacoes',D.doacoes,r=>[td(r.doador),td(pill(r.situacao)),td(r.forma),td(fmt(r.valor,'brl'),'num')]);
+ fill('tab-brindes',D.brindes,r=>{const w=document.createElement('div');const n=document.createElement('div');n.textContent=r.doador;const e=document.createElement('div');e.className='fx-note';e.textContent=r.empresa||'';w.append(n,e);return [td(w),td(r.itens),td(int.format(r.qtd),'num')];});
+ fill('tab-bebidas',D.bebidas,r=>[td(r.item),td(int.format(r.barris),'num'),td(int.format(r.litros)+' L','num'),td(r.condicao),td(r.preco)]);
+}).catch(()=>{document.querySelectorAll('[data-draw]').forEach(el=>{if(el.tagName!=='TBODY')el.textContent='—';});});
+})();
+</script>
+</body></html>

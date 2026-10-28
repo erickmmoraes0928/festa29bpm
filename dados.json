@@ -1,0 +1,138 @@
+{
+ "atualizado_em": "28/10/2026",
+ "indicadores": {
+  "adesoes": 20,
+  "pessoas": 77,
+  "arrecadado_adesoes": 3180,
+  "doacoes": 6000,
+  "total_entradas": 9180,
+  "a_receber": 4020,
+  "receita_prevista": 7200,
+  "total_integral": 13200,
+  "custo_buffet": 4640,
+  "despesas": 0,
+  "quitados": 3,
+  "em_dia": 17,
+  "atrasados": 0,
+  "brindes": 14,
+  "caixa_apos_buffet": 8560
+ },
+ "faixas": [
+  {
+   "faixa": "Adultos (18+)",
+   "pessoas": 55,
+   "valor_unitario": 80,
+   "total": 4400
+  },
+  {
+   "faixa": "Adolescentes (12 a 17)",
+   "pessoas": 6,
+   "valor_unitario": 40,
+   "total": 240
+  },
+  {
+   "faixa": "Crianças (até 11)",
+   "pessoas": 16,
+   "valor_unitario": 0,
+   "total": 0
+  }
+ ],
+ "adesoes": [],
+ "doacoes": [
+  {
+   "doador": "Cláudio – SAF",
+   "valor": 2000,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "Ivan – Chequer Infantil",
+   "valor": 1000,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "Wilson – Chequer Móveis",
+   "valor": 2000,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "Péricles",
+   "valor": 1000,
+   "forma": "Cheque",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "Dandy",
+   "valor": 500,
+   "forma": "A definir",
+   "situacao": "Prometida"
+  },
+  {
+   "doador": "Saul – Ésio Motores",
+   "valor": null,
+   "forma": "A definir",
+   "situacao": "Prometida"
+  },
+  {
+   "doador": "Gileard – Russo Motos",
+   "valor": null,
+   "forma": "A definir",
+   "situacao": "Prometida"
+  }
+ ],
+ "brindes": [
+  {
+   "doador": "Laura Gomes",
+   "empresa": "Ambar Cosméticos Naturais",
+   "itens": "Hidratante, Perfume de cabelo, Body splash",
+   "qtd": 3,
+   "situacao": "Prometido"
+  },
+  {
+   "doador": "Dra. Thaís Pimenta",
+   "empresa": "Estética Avançada",
+   "itens": "Limpeza de pele profunda, Peeling, Microagulhamento",
+   "qtd": 3,
+   "situacao": "Prometido"
+  },
+  {
+   "doador": "Elisandra",
+   "empresa": "Beauty Salon",
+   "itens": "4× Hidratação capilar",
+   "qtd": 4,
+   "situacao": "Prometido"
+  },
+  {
+   "doador": "Felipe",
+   "empresa": "Trilha Motos",
+   "itens": "Brinde(s) a definir",
+   "qtd": 1,
+   "situacao": "Prometido"
+  },
+  {
+   "doador": "Sgt Silvana Rodrigues Campos",
+   "empresa": "Policial do 29º BPM",
+   "itens": "3× Camisa da PMERJ",
+   "qtd": 3,
+   "situacao": "Prometido"
+  }
+ ],
+ "bebidas": [
+  {
+   "item": "Chopp claro",
+   "barris": 6,
+   "litros": 300,
+   "condicao": "Consignado: paga só o consumido",
+   "preco": "A confirmar"
+  },
+  {
+   "item": "Chopp de vinho",
+   "barris": 1,
+   "litros": 50,
+   "condicao": "Pago inteiro (será aberto)",
+   "preco": "A confirmar"
+  }
+ ]
+}
