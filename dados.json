@@ -1,28 +1,28 @@
 {
  "atualizado_em": "28/10/2026",
  "indicadores": {
-  "adesoes": 21,
-  "pessoas": 82,
-  "arrecadado_adesoes": 3540,
+  "adesoes": 22,
+  "pessoas": 86,
+  "arrecadado_adesoes": 3900,
   "doacoes": 6000,
-  "total_entradas": 9540,
+  "total_entradas": 9900,
   "a_receber": 4020,
-  "receita_prevista": 7560,
-  "total_integral": 13560,
-  "custo_buffet": 4705,
+  "receita_prevista": 7920,
+  "total_integral": 13920,
+  "custo_buffet": 4855,
   "despesas": 0,
-  "quitados": 4,
+  "quitados": 5,
   "em_dia": 17,
   "atrasados": 0,
   "brindes": 14,
-  "caixa_apos_buffet": 8855
+  "caixa_apos_buffet": 9065
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 59,
+   "pessoas": 61,
    "valor_unitario": 75,
-   "total": 4425
+   "total": 4575
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -32,7 +32,7 @@
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 16,
+   "pessoas": 18,
    "valor_unitario": 0,
    "total": 0
   }
