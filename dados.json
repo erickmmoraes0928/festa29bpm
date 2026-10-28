@@ -38,7 +38,162 @@
    "total": 0
   }
  ],
- "adesoes": [],
+ "adesoes": [
+  {
+   "posto": "Ten-Cel",
+   "nome": "Michelle Santos Marcolongo Campos",
+   "pessoas": 5,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Ten-Cel",
+   "nome": "Ronaldo Salgado Claudino",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Maj",
+   "nome": "Erick Martins de Moraes",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Maj",
+   "nome": "Luciano da Silva Souza",
+   "pessoas": 5,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Maj",
+   "nome": "Thomaz Costa Menezes",
+   "pessoas": 3,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Cap",
+   "nome": "Cesar Lucio de Lima",
+   "pessoas": 4,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "Ten",
+   "nome": "Aguimar Fernandes de Abreu Junior",
+   "pessoas": 5,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "Ten",
+   "nome": "Aurelino Medeiros da Silva Filho",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Ten",
+   "nome": "Claudinei Dias Barbosa",
+   "pessoas": 3,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Ten",
+   "nome": "Luís Paulo Lemos Junior",
+   "pessoas": 4,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "ST",
+   "nome": "Edgar Matos de Freitas",
+   "pessoas": 3,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "ST",
+   "nome": "Max José Souza Miranda",
+   "pessoas": 3,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "ST",
+   "nome": "Renato Machado da Costa",
+   "pessoas": 3,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Bruno Suzano da Silva",
+   "pessoas": 3,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Elisandra Lacerda da Penha",
+   "pessoas": 8,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Higor Gabriel Aleixo Dutra",
+   "pessoas": 3,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Isac",
+   "pessoas": 3,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Isaias Olla Corrêa",
+   "pessoas": 3,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Jardel Hermes da Cunha",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Rhuan Costa dos Santos",
+   "pessoas": 4,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Sidilan Cardoso Ferreira",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Silvana Rodrigues Campos",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  }
+ ],
  "doacoes": [
   {
    "doador": "Cláudio – SAF",
