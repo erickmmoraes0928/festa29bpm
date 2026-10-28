@@ -1,34 +1,34 @@
 {
  "atualizado_em": "28/10/2026",
  "indicadores": {
-  "adesoes": 20,
-  "pessoas": 77,
-  "arrecadado_adesoes": 3180,
+  "adesoes": 21,
+  "pessoas": 82,
+  "arrecadado_adesoes": 3540,
   "doacoes": 6000,
-  "total_entradas": 9180,
+  "total_entradas": 9540,
   "a_receber": 4020,
-  "receita_prevista": 7200,
-  "total_integral": 13200,
-  "custo_buffet": 4640,
+  "receita_prevista": 7560,
+  "total_integral": 13560,
+  "custo_buffet": 4705,
   "despesas": 0,
-  "quitados": 3,
+  "quitados": 4,
   "em_dia": 17,
   "atrasados": 0,
   "brindes": 14,
-  "caixa_apos_buffet": 8560
+  "caixa_apos_buffet": 8855
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 55,
-   "valor_unitario": 80,
-   "total": 4400
+   "pessoas": 59,
+   "valor_unitario": 75,
+   "total": 4425
   },
   {
    "faixa": "Adolescentes (12 a 17)",
-   "pessoas": 6,
+   "pessoas": 7,
    "valor_unitario": 40,
-   "total": 240
+   "total": 280
   },
   {
    "faixa": "Crianças (até 11)",
@@ -87,36 +87,31 @@
    "doador": "Laura Gomes",
    "empresa": "Ambar Cosméticos Naturais",
    "itens": "Hidratante, Perfume de cabelo, Body splash",
-   "qtd": 3,
-   "situacao": "Prometido"
+   "qtd": 3
   },
   {
    "doador": "Dra. Thaís Pimenta",
    "empresa": "Estética Avançada",
    "itens": "Limpeza de pele profunda, Peeling, Microagulhamento",
-   "qtd": 3,
-   "situacao": "Prometido"
+   "qtd": 3
   },
   {
    "doador": "Elisandra",
    "empresa": "Beauty Salon",
    "itens": "4× Hidratação capilar",
-   "qtd": 4,
-   "situacao": "Prometido"
+   "qtd": 4
   },
   {
    "doador": "Felipe",
    "empresa": "Trilha Motos",
    "itens": "Brinde(s) a definir",
-   "qtd": 1,
-   "situacao": "Prometido"
+   "qtd": 1
   },
   {
    "doador": "Sgt Silvana Rodrigues Campos",
    "empresa": "Policial do 29º BPM",
    "itens": "3× Camisa da PMERJ",
-   "qtd": 3,
-   "situacao": "Prometido"
+   "qtd": 3
   }
  ],
  "bebidas": [
