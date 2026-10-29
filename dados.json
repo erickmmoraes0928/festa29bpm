@@ -1,14 +1,14 @@
 {
- "atualizado_em": "28/10/2026",
+ "atualizado_em": "29/10/2026",
  "indicadores": {
   "adesoes": 22,
   "pessoas": 86,
   "arrecadado_adesoes": 3900,
-  "doacoes": 6000,
-  "total_entradas": 9900,
+  "doacoes": 6150,
+  "total_entradas": 10050,
   "a_receber": 4020,
   "receita_prevista": 7920,
-  "total_integral": 13920,
+  "total_integral": 14070,
   "custo_buffet": 4855,
   "despesas": 0,
   "quitados": 5,
@@ -16,7 +16,7 @@
   "atrasados": 0,
   "brindes": 14,
   "credito_salgados": 1700,
-  "caixa_apos_buffet": 9065
+  "caixa_apos_buffet": 9215
  },
  "faixas": [
   {
@@ -216,6 +216,12 @@
   {
    "doador": "Péricles",
    "valor": 1000,
+   "forma": "Cheque",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "1ª Cia (29º BPM)",
+   "valor": 150,
    "forma": "Cheque",
    "situacao": "Recebida"
   },
