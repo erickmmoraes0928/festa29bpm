@@ -1,39 +1,39 @@
 {
- "atualizado_em": "29/10/2026",
+ "atualizado_em": "31/10/2026",
  "indicadores": {
-  "adesoes": 22,
-  "pessoas": 86,
-  "arrecadado_adesoes": 3900,
+  "adesoes": 27,
+  "pessoas": 102,
+  "arrecadado_adesoes": 4360,
   "doacoes": 6150,
-  "total_entradas": 10050,
-  "a_receber": 4020,
-  "receita_prevista": 7920,
-  "total_integral": 14070,
-  "custo_buffet": 4855,
+  "total_entradas": 10510,
+  "a_receber": 5360,
+  "receita_prevista": 9720,
+  "total_integral": 15870,
+  "custo_buffet": 5910,
   "despesas": 0,
   "quitados": 5,
-  "em_dia": 17,
+  "em_dia": 22,
   "atrasados": 0,
   "brindes": 14,
   "credito_salgados": 1700,
-  "caixa_apos_buffet": 9215
+  "caixa_apos_buffet": 9960
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 61,
+   "pessoas": 74,
    "valor_unitario": 75,
-   "total": 4575
+   "total": 5550
   },
   {
    "faixa": "Adolescentes (12 a 17)",
-   "pessoas": 7,
+   "pessoas": 9,
    "valor_unitario": 40,
-   "total": 280
+   "total": 360
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 18,
+   "pessoas": 19,
    "valor_unitario": 0,
    "total": 0
   }
@@ -44,7 +44,7 @@
    "nome": "Michelle Santos Marcolongo Campos",
    "pessoas": 5,
    "situacao": "EM DIA",
-   "parcelas": 1
+   "parcelas": 2
   },
   {
    "posto": "Ten-Cel",
@@ -110,11 +110,32 @@
    "parcelas": 3
   },
   {
+   "posto": "Ten",
+   "nome": "Sidclei Bastos da Silva",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "ST",
+   "nome": "Carlos Eduardo Tavares Montovani",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
    "posto": "ST",
    "nome": "Edgar Matos de Freitas",
    "pessoas": 3,
    "situacao": "EM DIA",
    "parcelas": 1
+  },
+  {
+   "posto": "ST",
+   "nome": "Geraldo Osório Ramos da Cunha",
+   "pessoas": 2,
+   "situacao": "EM DIA",
+   "parcelas": 0
   },
   {
    "posto": "ST",
@@ -146,6 +167,13 @@
   },
   {
    "posto": "Sgt",
+   "nome": "Gerlane (sobrenome a confirmar)",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 0
+  },
+  {
+   "posto": "Sgt",
    "nome": "Higor Gabriel Aleixo Dutra",
    "pessoas": 3,
    "situacao": "EM DIA",
@@ -171,6 +199,13 @@
    "pessoas": 4,
    "situacao": "EM DIA",
    "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Renata (sobrenome a confirmar)",
+   "pessoas": 2,
+   "situacao": "EM DIA",
+   "parcelas": 0
   },
   {
    "posto": "Sgt",
