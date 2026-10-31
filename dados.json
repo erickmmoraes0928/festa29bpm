@@ -3,16 +3,16 @@
  "indicadores": {
   "adesoes": 27,
   "pessoas": 102,
-  "arrecadado_adesoes": 4360,
+  "arrecadado_adesoes": 5200,
   "doacoes": 6150,
-  "total_entradas": 10510,
-  "a_receber": 5360,
+  "total_entradas": 11350,
+  "a_receber": 4520,
   "receita_prevista": 9720,
   "total_integral": 15870,
   "custo_buffet": 5910,
   "despesas": 0,
-  "quitados": 5,
-  "em_dia": 22,
+  "quitados": 6,
+  "em_dia": 21,
   "atrasados": 0,
   "brindes": 14,
   "credito_salgados": 1700,
@@ -134,8 +134,8 @@
    "posto": "ST",
    "nome": "Geraldo Osório Ramos da Cunha",
    "pessoas": 2,
-   "situacao": "EM DIA",
-   "parcelas": 0
+   "situacao": "QUITADO",
+   "parcelas": 3
   },
   {
    "posto": "ST",
@@ -167,10 +167,10 @@
   },
   {
    "posto": "Sgt",
-   "nome": "Gerlane (sobrenome a confirmar)",
+   "nome": "Gerlane da Silva Oliveira Filgueira",
    "pessoas": 4,
    "situacao": "EM DIA",
-   "parcelas": 0
+   "parcelas": 2
   },
   {
    "posto": "Sgt",
@@ -202,10 +202,10 @@
   },
   {
    "posto": "Sgt",
-   "nome": "Renata (sobrenome a confirmar)",
+   "nome": "Renata Mirian Goulart Dionizio",
    "pessoas": 2,
    "situacao": "EM DIA",
-   "parcelas": 0
+   "parcelas": 2
   },
   {
    "posto": "Sgt",
