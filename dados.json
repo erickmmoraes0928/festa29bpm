@@ -14,7 +14,7 @@
   "quitados": 6,
   "em_dia": 21,
   "atrasados": 0,
-  "brindes": 14,
+  "brindes": 16,
   "credito_salgados": 1700,
   "caixa_apos_buffet": 9960
  },
@@ -309,6 +309,18 @@
    "empresa": "Policial do 29º BPM",
    "itens": "3× Camisa da PMERJ",
    "qtd": 3
+  },
+  {
+   "doador": "Restaurante Coisa Boa",
+   "empresa": "Restaurante – Pedra Menina (ES)",
+   "itens": "Almoço ou jantar para casal, sem bebida",
+   "qtd": 1
+  },
+  {
+   "doador": "Loja Rosa Stillus",
+   "empresa": "Loja",
+   "itens": "Vale-brinde",
+   "qtd": 1
   }
  ],
  "bebidas": [
