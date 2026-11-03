@@ -14,7 +14,7 @@
   "quitados": 8,
   "em_dia": 22,
   "atrasados": 0,
-  "brindes": 16,
+  "brindes": 17,
   "credito_salgados": 1700,
   "caixa_apos_buffet": 10560
  },
@@ -347,6 +347,12 @@
    "doador": "Loja Rosa Stillus",
    "empresa": "Loja",
    "itens": "Vale-brinde",
+   "qtd": 1
+  },
+  {
+   "doador": "Mercado Santa Clara",
+   "empresa": "Mercado",
+   "itens": "Cafeteira",
    "qtd": 1
   }
  ],
