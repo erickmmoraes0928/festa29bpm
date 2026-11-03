@@ -1,29 +1,29 @@
 {
- "atualizado_em": "31/10/2026",
+ "atualizado_em": "03/11/2026",
  "indicadores": {
-  "adesoes": 27,
-  "pessoas": 102,
-  "arrecadado_adesoes": 5200,
-  "doacoes": 6150,
-  "total_entradas": 11350,
-  "a_receber": 4520,
-  "receita_prevista": 9720,
-  "total_integral": 15870,
-  "custo_buffet": 5910,
+  "adesoes": 30,
+  "pessoas": 111,
+  "arrecadado_adesoes": 6580,
+  "doacoes": 6450,
+  "total_entradas": 13030,
+  "a_receber": 4040,
+  "receita_prevista": 10620,
+  "total_integral": 17070,
+  "custo_buffet": 6510,
   "despesas": 0,
-  "quitados": 6,
-  "em_dia": 21,
+  "quitados": 8,
+  "em_dia": 22,
   "atrasados": 0,
   "brindes": 16,
   "credito_salgados": 1700,
-  "caixa_apos_buffet": 9960
+  "caixa_apos_buffet": 10560
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 74,
+   "pessoas": 82,
    "valor_unitario": 75,
-   "total": 5550
+   "total": 6150
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -33,7 +33,7 @@
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 19,
+   "pessoas": 20,
    "valor_unitario": 0,
    "total": 0
   }
@@ -58,7 +58,7 @@
    "nome": "Erick Martins de Moraes",
    "pessoas": 4,
    "situacao": "EM DIA",
-   "parcelas": 1
+   "parcelas": 2
   },
   {
    "posto": "Maj",
@@ -82,6 +82,13 @@
    "parcelas": 3
   },
   {
+   "posto": "Cap",
+   "nome": "Fabrícia Carneiro Santos",
+   "pessoas": 1,
+   "situacao": "QUITADO",
+   "parcelas": 1
+  },
+  {
    "posto": "Ten",
    "nome": "Aguimar Fernandes de Abreu Junior",
    "pessoas": 5,
@@ -93,7 +100,7 @@
    "nome": "Aurelino Medeiros da Silva Filho",
    "pessoas": 4,
    "situacao": "EM DIA",
-   "parcelas": 1
+   "parcelas": 2
   },
   {
    "posto": "Ten",
@@ -139,24 +146,31 @@
   },
   {
    "posto": "ST",
+   "nome": "Jean Carlos Pereira da Costa",
+   "pessoas": 5,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "ST",
    "nome": "Max José Souza Miranda",
    "pessoas": 3,
    "situacao": "EM DIA",
-   "parcelas": 1
+   "parcelas": 2
   },
   {
    "posto": "ST",
    "nome": "Renato Machado da Costa",
    "pessoas": 3,
    "situacao": "EM DIA",
-   "parcelas": 1
+   "parcelas": 2
   },
   {
    "posto": "Sgt",
    "nome": "Bruno Suzano da Silva",
    "pessoas": 3,
    "situacao": "EM DIA",
-   "parcelas": 1
+   "parcelas": 2
   },
   {
    "posto": "Sgt",
@@ -164,6 +178,13 @@
    "pessoas": 8,
    "situacao": "EM DIA",
    "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Evaldo Sant Ana Braga",
+   "pessoas": 3,
+   "situacao": "QUITADO",
+   "parcelas": 3
   },
   {
    "posto": "Sgt",
@@ -226,7 +247,7 @@
    "nome": "Silvana Rodrigues Campos",
    "pessoas": 4,
    "situacao": "EM DIA",
-   "parcelas": 1
+   "parcelas": 2
   }
  ],
  "doacoes": [
@@ -258,6 +279,12 @@
    "doador": "1ª Cia (29º BPM)",
    "valor": 150,
    "forma": "Espécie",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "1ª Cia (29º BPM)",
+   "valor": 300,
+   "forma": "Pix",
    "situacao": "Recebida"
   },
   {
