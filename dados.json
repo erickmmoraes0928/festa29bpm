@@ -1,39 +1,39 @@
 {
  "atualizado_em": "04/11/2026",
  "indicadores": {
-  "adesoes": 30,
-  "pessoas": 111,
-  "arrecadado_adesoes": 6580,
-  "doacoes": 6450,
-  "total_entradas": 13030,
-  "a_receber": 2720,
-  "receita_prevista": 8850,
-  "total_integral": 15300,
-  "custo_buffet": 6510,
+  "adesoes": 33,
+  "pessoas": 119,
+  "arrecadado_adesoes": 6820,
+  "doacoes": 6750,
+  "total_entradas": 13570,
+  "a_receber": 3230,
+  "receita_prevista": 9600,
+  "total_integral": 16350,
+  "custo_buffet": 6925,
   "despesas": 0,
   "quitados": 8,
-  "em_dia": 22,
-  "atrasados": 0,
+  "em_dia": 24,
+  "atrasados": 1,
   "brindes": 16,
   "credito_salgados": 1700,
-  "caixa_apos_buffet": 8790
+  "caixa_apos_buffet": 9425
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 82,
+   "pessoas": 87,
    "valor_unitario": 75,
-   "total": 6150
+   "total": 6525
   },
   {
    "faixa": "Adolescentes (12 a 17)",
-   "pessoas": 9,
+   "pessoas": 10,
    "valor_unitario": 40,
-   "total": 360
+   "total": 400
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 20,
+   "pessoas": 22,
    "valor_unitario": 0,
    "total": 0
   }
@@ -89,6 +89,13 @@
    "parcelas": 1
   },
   {
+   "posto": "Cap",
+   "nome": "Patrick",
+   "pessoas": 1,
+   "situacao": "PENDENTE",
+   "parcelas": 0
+  },
+  {
    "posto": "Ten",
    "nome": "Aguimar Fernandes de Abreu Junior",
    "pessoas": 5,
@@ -115,6 +122,13 @@
    "pessoas": 4,
    "situacao": "QUITADO",
    "parcelas": 3
+  },
+  {
+   "posto": "Ten",
+   "nome": "Rodrigo de Lima Branco",
+   "pessoas": 3,
+   "situacao": "EM DIA",
+   "parcelas": 1
   },
   {
    "posto": "Ten",
@@ -237,6 +251,13 @@
   },
   {
    "posto": "Sgt",
+   "nome": "Roberta Aparecida Picanço Primay",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
    "nome": "Sidilan Cardoso Ferreira",
    "pessoas": 4,
    "situacao": "EM DIA",
@@ -279,6 +300,12 @@
    "doador": "1ª Cia (29º BPM)",
    "valor": 150,
    "forma": "Espécie",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "1ª Cia (29º BPM)",
+   "valor": 300,
+   "forma": "Pix",
    "situacao": "Recebida"
   },
   {
