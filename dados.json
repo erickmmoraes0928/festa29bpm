@@ -3,17 +3,17 @@
  "indicadores": {
   "adesoes": 33,
   "pessoas": 119,
-  "arrecadado_adesoes": 6940,
+  "arrecadado_adesoes": 7120,
   "doacoes": 6750,
-  "total_entradas": 13690,
-  "a_receber": 3110,
+  "total_entradas": 13870,
+  "a_receber": 2960,
   "receita_prevista": 9600,
   "total_integral": 16350,
   "custo_buffet": 6925,
   "despesas": 0,
-  "quitados": 8,
+  "quitados": 9,
   "em_dia": 24,
-  "atrasados": 1,
+  "atrasados": 0,
   "brindes": 16,
   "credito_salgados": 1700,
   "caixa_apos_buffet": 9425
@@ -92,8 +92,8 @@
    "posto": "Cap",
    "nome": "Patrick Rogério Coelho",
    "pessoas": 1,
-   "situacao": "PENDENTE",
-   "parcelas": 0
+   "situacao": "QUITADO",
+   "parcelas": 1
   },
   {
    "posto": "Ten",
