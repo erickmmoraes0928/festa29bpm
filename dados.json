@@ -1,14 +1,14 @@
 {
- "atualizado_em": "03/11/2026",
+ "atualizado_em": "04/11/2026",
  "indicadores": {
   "adesoes": 30,
   "pessoas": 111,
   "arrecadado_adesoes": 6580,
   "doacoes": 6450,
   "total_entradas": 13030,
-  "a_receber": 4040,
-  "receita_prevista": 10620,
-  "total_integral": 17070,
+  "a_receber": 2720,
+  "receita_prevista": 8850,
+  "total_integral": 15300,
   "custo_buffet": 6510,
   "despesas": 0,
   "quitados": 8,
@@ -16,7 +16,7 @@
   "atrasados": 0,
   "brindes": 16,
   "credito_salgados": 1700,
-  "caixa_apos_buffet": 10560
+  "caixa_apos_buffet": 8790
  },
  "faixas": [
   {
