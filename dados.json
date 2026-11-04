@@ -3,10 +3,10 @@
  "indicadores": {
   "adesoes": 33,
   "pessoas": 119,
-  "arrecadado_adesoes": 6820,
+  "arrecadado_adesoes": 6940,
   "doacoes": 6750,
-  "total_entradas": 13570,
-  "a_receber": 3230,
+  "total_entradas": 13690,
+  "a_receber": 3110,
   "receita_prevista": 9600,
   "total_integral": 16350,
   "custo_buffet": 6925,
@@ -149,7 +149,7 @@
    "nome": "Edgar Matos de Freitas",
    "pessoas": 3,
    "situacao": "EM DIA",
-   "parcelas": 1
+   "parcelas": 2
   },
   {
    "posto": "ST",
