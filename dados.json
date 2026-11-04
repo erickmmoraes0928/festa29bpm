@@ -16,7 +16,8 @@
   "atrasados": 0,
   "brindes": 16,
   "credito_salgados": 1700,
-  "caixa_apos_buffet": 9425
+  "custos_a_pagar": 500,
+  "caixa_apos_buffet": 8925
  },
  "faixas": [
   {
