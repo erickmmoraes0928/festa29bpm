@@ -1,40 +1,40 @@
 {
  "atualizado_em": "04/11/2026",
  "indicadores": {
-  "adesoes": 33,
-  "pessoas": 119,
-  "arrecadado_adesoes": 7120,
+  "adesoes": 36,
+  "pessoas": 129,
+  "arrecadado_adesoes": 7570,
   "doacoes": 6750,
-  "total_entradas": 13870,
-  "a_receber": 2960,
-  "receita_prevista": 9600,
-  "total_integral": 16320,
-  "custo_buffet": 6925,
+  "total_entradas": 14320,
+  "a_receber": 3260,
+  "receita_prevista": 10350,
+  "total_integral": 17070,
+  "custo_buffet": 7495,
   "despesas": 0,
-  "quitados": 9,
-  "em_dia": 24,
+  "quitados": 10,
+  "em_dia": 26,
   "atrasados": 0,
   "brindes": 16,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 8925
+  "caixa_apos_buffet": 9105
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 87,
+   "pessoas": 93,
    "valor_unitario": 75,
-   "total": 6525
+   "total": 6975
   },
   {
    "faixa": "Adolescentes (12 a 17)",
-   "pessoas": 10,
+   "pessoas": 13,
    "valor_unitario": 40,
-   "total": 400
+   "total": 520
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 22,
+   "pessoas": 23,
    "valor_unitario": 0,
    "total": 0
   }
@@ -147,6 +147,13 @@
   },
   {
    "posto": "ST",
+   "nome": "Cristiano Resende da Silva",
+   "pessoas": 5,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "ST",
    "nome": "Edgar Matos de Freitas",
    "pessoas": 3,
    "situacao": "EM DIA",
@@ -158,6 +165,13 @@
    "pessoas": 2,
    "situacao": "QUITADO",
    "parcelas": 3
+  },
+  {
+   "posto": "ST",
+   "nome": "Gideon Alex de Oliveira Melo",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
   },
   {
    "posto": "ST",
@@ -234,6 +248,13 @@
    "nome": "Jardel Hermes da Cunha",
    "pessoas": 4,
    "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Karen Franciele Franco Cruz",
+   "pessoas": 1,
+   "situacao": "QUITADO",
    "parcelas": 1
   },
   {
