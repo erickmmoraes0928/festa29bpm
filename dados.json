@@ -1,30 +1,30 @@
 {
- "atualizado_em": "04/11/2026",
+ "atualizado_em": "05/11/2026",
  "indicadores": {
-  "adesoes": 36,
-  "pessoas": 129,
-  "arrecadado_adesoes": 7570,
+  "adesoes": 38,
+  "pessoas": 132,
+  "arrecadado_adesoes": 7990,
   "doacoes": 6750,
-  "total_entradas": 14320,
+  "total_entradas": 14740,
   "a_receber": 3260,
-  "receita_prevista": 10350,
-  "total_integral": 17070,
-  "custo_buffet": 7495,
+  "receita_prevista": 10770,
+  "total_integral": 17490,
+  "custo_buffet": 7720,
   "despesas": 0,
-  "quitados": 10,
+  "quitados": 12,
   "em_dia": 26,
   "atrasados": 0,
   "brindes": 16,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 9105
+  "caixa_apos_buffet": 9300
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 93,
+   "pessoas": 96,
    "valor_unitario": 75,
-   "total": 6975
+   "total": 7200
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -290,6 +290,20 @@
    "nome": "Silvana Rodrigues Campos",
    "pessoas": 4,
    "situacao": "EM DIA",
+   "parcelas": 2
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Wilson José Cascardo Filho",
+   "pessoas": 1,
+   "situacao": "QUITADO",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sd",
+   "nome": "Jéssica Simões Coelho",
+   "pessoas": 2,
+   "situacao": "QUITADO",
    "parcelas": 2
   }
  ],
