@@ -9,7 +9,7 @@
   "a_receber": 3410,
   "receita_prevista": 11070,
   "total_integral": 17790,
-  "custo_buffet": 8020,
+  "custo_buffet": 7870,
   "despesas": 0,
   "quitados": 12,
   "em_dia": 27,
@@ -17,14 +17,14 @@
   "brindes": 16,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 9300
+  "caixa_apos_buffet": 9450
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 100,
+   "pessoas": 98,
    "valor_unitario": 75,
-   "total": 7500
+   "total": 7350
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -34,7 +34,7 @@
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 23,
+   "pessoas": 25,
    "valor_unitario": 0,
    "total": 0
   }
