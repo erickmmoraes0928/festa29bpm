@@ -1,18 +1,18 @@
 {
  "atualizado_em": "05/11/2026",
  "indicadores": {
-  "adesoes": 38,
-  "pessoas": 132,
-  "arrecadado_adesoes": 7990,
+  "adesoes": 39,
+  "pessoas": 136,
+  "arrecadado_adesoes": 8140,
   "doacoes": 6750,
-  "total_entradas": 14740,
-  "a_receber": 3260,
-  "receita_prevista": 10770,
-  "total_integral": 17490,
-  "custo_buffet": 7720,
+  "total_entradas": 14890,
+  "a_receber": 3410,
+  "receita_prevista": 11070,
+  "total_integral": 17790,
+  "custo_buffet": 8020,
   "despesas": 0,
   "quitados": 12,
-  "em_dia": 26,
+  "em_dia": 27,
   "atrasados": 0,
   "brindes": 16,
   "credito_salgados": 1700,
@@ -22,9 +22,9 @@
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 96,
+   "pessoas": 100,
    "valor_unitario": 75,
-   "total": 7200
+   "total": 7500
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -200,6 +200,13 @@
    "pessoas": 3,
    "situacao": "EM DIA",
    "parcelas": 2
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Deiveson de Araujo Ribeiro",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
   },
   {
    "posto": "Sgt",
