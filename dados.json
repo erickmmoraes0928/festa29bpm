@@ -1,30 +1,30 @@
 {
- "atualizado_em": "05/11/2026",
+ "atualizado_em": "07/11/2026",
  "indicadores": {
-  "adesoes": 39,
-  "pessoas": 136,
-  "arrecadado_adesoes": 8140,
-  "doacoes": 6750,
-  "total_entradas": 14890,
+  "adesoes": 40,
+  "pessoas": 137,
+  "arrecadado_adesoes": 8290,
+  "doacoes": 6900,
+  "total_entradas": 15190,
   "a_receber": 3410,
-  "receita_prevista": 11070,
-  "total_integral": 17820,
-  "custo_buffet": 7870,
+  "receita_prevista": 11220,
+  "total_integral": 18120,
+  "custo_buffet": 7945,
   "despesas": 0,
-  "quitados": 12,
+  "quitados": 13,
   "em_dia": 27,
   "atrasados": 0,
   "brindes": 16,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 9450
+  "caixa_apos_buffet": 9675
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 98,
+   "pessoas": 99,
    "valor_unitario": 75,
-   "total": 7350
+   "total": 7425
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -312,6 +312,13 @@
    "pessoas": 2,
    "situacao": "QUITADO",
    "parcelas": 2
+  },
+  {
+   "posto": "(posto a confirmar)",
+   "nome": "Elton da Silva Soares Vieira",
+   "pessoas": 1,
+   "situacao": "QUITADO",
+   "parcelas": 1
   }
  ],
  "doacoes": [
@@ -354,6 +361,12 @@
   {
    "doador": "1ª Cia (29º BPM)",
    "valor": 300,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "Elton da Silva Soares Vieira",
+   "valor": 150,
    "forma": "Pix",
    "situacao": "Recebida"
   },
