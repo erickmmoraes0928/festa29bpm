@@ -14,7 +14,7 @@
   "quitados": 13,
   "em_dia": 27,
   "atrasados": 0,
-  "brindes": 16,
+  "brindes": 19,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
   "caixa_apos_buffet": 9675
@@ -431,6 +431,18 @@
    "empresa": "Loja",
    "itens": "Vale-brinde",
    "qtd": 1
+  },
+  {
+   "doador": "Mirim Motos",
+   "empresa": "Via ST Edgar Matos de Freitas",
+   "itens": "Capacete",
+   "qtd": 1
+  },
+  {
+   "doador": "Prime iPhone",
+   "empresa": "Loja",
+   "itens": "2× Vale-brinde de R$ 200",
+   "qtd": 2
   },
   {
    "doador": "Mercado Santa Clara",
