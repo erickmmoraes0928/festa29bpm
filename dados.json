@@ -14,7 +14,7 @@
   "quitados": 14,
   "em_dia": 28,
   "atrasados": 0,
-  "brindes": 19,
+  "brindes": 22,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
   "caixa_apos_buffet": 9860
@@ -457,6 +457,12 @@
    "empresa": "Loja",
    "itens": "2× Vale-brinde de R$ 200",
    "qtd": 2
+  },
+  {
+   "doador": "Chequer",
+   "empresa": "Loja",
+   "itens": "3× Ventilador",
+   "qtd": 3
   },
   {
    "doador": "Mercado Santa Clara",
