@@ -1,40 +1,40 @@
 {
- "atualizado_em": "07/11/2026",
+ "atualizado_em": "09/11/2026",
  "indicadores": {
-  "adesoes": 40,
-  "pessoas": 137,
-  "arrecadado_adesoes": 8290,
+  "adesoes": 42,
+  "pessoas": 145,
+  "arrecadado_adesoes": 8690,
   "doacoes": 6900,
-  "total_entradas": 15190,
-  "a_receber": 3410,
-  "receita_prevista": 11220,
-  "total_integral": 18120,
-  "custo_buffet": 7945,
+  "total_entradas": 15590,
+  "a_receber": 3610,
+  "receita_prevista": 11820,
+  "total_integral": 18720,
+  "custo_buffet": 8360,
   "despesas": 0,
-  "quitados": 13,
-  "em_dia": 27,
+  "quitados": 14,
+  "em_dia": 28,
   "atrasados": 0,
   "brindes": 19,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 9675
+  "caixa_apos_buffet": 9860
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 99,
+   "pessoas": 104,
    "valor_unitario": 75,
-   "total": 7425
+   "total": 7800
   },
   {
    "faixa": "Adolescentes (12 a 17)",
-   "pessoas": 13,
+   "pessoas": 14,
    "valor_unitario": 40,
-   "total": 520
+   "total": 560
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 25,
+   "pessoas": 27,
    "valor_unitario": 0,
    "total": 0
   }
@@ -195,6 +195,13 @@
    "parcelas": 2
   },
   {
+   "posto": "ST",
+   "nome": "Rodrigo da Silva Oliveira",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
    "posto": "Sgt",
    "nome": "Bruno Suzano da Silva",
    "pessoas": 3,
@@ -298,6 +305,13 @@
    "pessoas": 4,
    "situacao": "EM DIA",
    "parcelas": 2
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Wallas (nome completo a confirmar)",
+   "pessoas": 4,
+   "situacao": "QUITADO",
+   "parcelas": 3
   },
   {
    "posto": "Sgt",
