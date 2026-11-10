@@ -1,18 +1,18 @@
 {
- "atualizado_em": "09/11/2026",
+ "atualizado_em": "10/11/2026",
  "indicadores": {
-  "adesoes": 42,
-  "pessoas": 145,
-  "arrecadado_adesoes": 8690,
+  "adesoes": 43,
+  "pessoas": 151,
+  "arrecadado_adesoes": 9170,
   "doacoes": 6900,
-  "total_entradas": 15590,
-  "a_receber": 3610,
-  "receita_prevista": 11820,
-  "total_integral": 18720,
-  "custo_buffet": 8360,
+  "total_entradas": 16070,
+  "a_receber": 3430,
+  "receita_prevista": 12120,
+  "total_integral": 19020,
+  "custo_buffet": 8660,
   "despesas": 0,
-  "quitados": 14,
-  "em_dia": 28,
+  "quitados": 16,
+  "em_dia": 27,
   "atrasados": 0,
   "brindes": 22,
   "credito_salgados": 1700,
@@ -22,9 +22,9 @@
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 104,
+   "pessoas": 108,
    "valor_unitario": 75,
-   "total": 7800
+   "total": 8100
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -34,7 +34,7 @@
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 27,
+   "pessoas": 29,
    "valor_unitario": 0,
    "total": 0
   }
@@ -161,6 +161,13 @@
   },
   {
    "posto": "ST",
+   "nome": "Edmar Reis Branquinho Finamor",
+   "pessoas": 6,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "ST",
    "nome": "Geraldo Osório Ramos da Cunha",
    "pessoas": 2,
    "situacao": "QUITADO",
@@ -177,8 +184,8 @@
    "posto": "ST",
    "nome": "Jean Carlos Pereira da Costa",
    "pessoas": 5,
-   "situacao": "EM DIA",
-   "parcelas": 1
+   "situacao": "QUITADO",
+   "parcelas": 3
   },
   {
    "posto": "ST",
