@@ -119,6 +119,13 @@
   },
   {
    "posto": "Ten",
+   "nome": "Elton da Silva Soares Vieira",
+   "pessoas": 1,
+   "situacao": "QUITADO",
+   "parcelas": 1
+  },
+  {
+   "posto": "Ten",
    "nome": "Luís Paulo Lemos Junior",
    "pessoas": 4,
    "situacao": "QUITADO",
@@ -333,13 +340,6 @@
    "pessoas": 2,
    "situacao": "QUITADO",
    "parcelas": 2
-  },
-  {
-   "posto": "(posto a confirmar)",
-   "nome": "Elton da Silva Soares Vieira",
-   "pessoas": 1,
-   "situacao": "QUITADO",
-   "parcelas": 1
   }
  ],
  "doacoes": [
