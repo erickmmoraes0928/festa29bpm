@@ -1,30 +1,30 @@
 {
  "atualizado_em": "10/11/2026",
  "indicadores": {
-  "adesoes": 43,
-  "pessoas": 151,
-  "arrecadado_adesoes": 9170,
+  "adesoes": 44,
+  "pessoas": 152,
+  "arrecadado_adesoes": 9320,
   "doacoes": 6900,
-  "total_entradas": 16070,
+  "total_entradas": 16220,
   "a_receber": 3430,
-  "receita_prevista": 12120,
-  "total_integral": 19020,
-  "custo_buffet": 8660,
+  "receita_prevista": 12270,
+  "total_integral": 19170,
+  "custo_buffet": 8735,
   "despesas": 0,
-  "quitados": 16,
+  "quitados": 17,
   "em_dia": 27,
   "atrasados": 0,
   "brindes": 22,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 9860
+  "caixa_apos_buffet": 9935
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 108,
+   "pessoas": 109,
    "valor_unitario": 75,
-   "total": 8100
+   "total": 8175
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -281,6 +281,13 @@
   {
    "posto": "Sgt",
    "nome": "Karen Franciele Franco Cruz",
+   "pessoas": 1,
+   "situacao": "QUITADO",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Patricia Ferreira de Souza",
    "pessoas": 1,
    "situacao": "QUITADO",
    "parcelas": 1
