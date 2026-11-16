@@ -1,40 +1,40 @@
 {
- "atualizado_em": "15/11/2026",
+ "atualizado_em": "16/11/2026",
  "indicadores": {
-  "adesoes": 45,
-  "pessoas": 156,
-  "arrecadado_adesoes": 9720,
+  "adesoes": 52,
+  "pessoas": 177,
+  "arrecadado_adesoes": 10920,
   "doacoes": 6900,
-  "total_entradas": 16620,
-  "a_receber": 3330,
-  "receita_prevista": 12570,
-  "total_integral": 19470,
-  "custo_buffet": 9035,
+  "total_entradas": 17820,
+  "a_receber": 3930,
+  "receita_prevista": 14370,
+  "total_integral": 21270,
+  "custo_buffet": 10170,
   "despesas": 0,
-  "quitados": 18,
-  "em_dia": 27,
+  "quitados": 21,
+  "em_dia": 31,
   "atrasados": 0,
   "brindes": 23,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 9935
+  "caixa_apos_buffet": 10600
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 113,
+   "pessoas": 126,
    "valor_unitario": 75,
-   "total": 8475
+   "total": 9450
   },
   {
    "faixa": "Adolescentes (12 a 17)",
-   "pessoas": 14,
+   "pessoas": 18,
    "valor_unitario": 40,
-   "total": 560
+   "total": 720
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 29,
+   "pessoas": 33,
    "valor_unitario": 0,
    "total": 0
   }
@@ -126,6 +126,13 @@
   },
   {
    "posto": "Ten",
+   "nome": "Fagner Bruno da Silva Baptista",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Ten",
    "nome": "Luís Paulo Lemos Junior",
    "pessoas": 4,
    "situacao": "QUITADO",
@@ -185,6 +192,13 @@
    "nome": "Gideon Alex de Oliveira Melo",
    "pessoas": 4,
    "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "ST",
+   "nome": "Grebson José Campos da Silva",
+   "pessoas": 1,
+   "situacao": "QUITADO",
    "parcelas": 1
   },
   {
@@ -287,9 +301,37 @@
   },
   {
    "posto": "Sgt",
+   "nome": "Jeferson da Silva Dias",
+   "pessoas": 4,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "Sgt",
    "nome": "Karen Franciele Franco Cruz",
    "pessoas": 1,
    "situacao": "QUITADO",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Luiz Rabelo",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Marcelo Pereira",
+   "pessoas": 3,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Michelle Pimenta Martins",
+   "pessoas": 4,
+   "situacao": "EM DIA",
    "parcelas": 1
   },
   {
@@ -333,6 +375,13 @@
    "pessoas": 4,
    "situacao": "EM DIA",
    "parcelas": 2
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Valério de Cássio Ferreira",
+   "pessoas": 1,
+   "situacao": "QUITADO",
+   "parcelas": 1
   },
   {
    "posto": "Sgt",
