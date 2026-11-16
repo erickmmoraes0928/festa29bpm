@@ -1,12 +1,12 @@
 {
- "atualizado_em": "10/11/2026",
+ "atualizado_em": "15/11/2026",
  "indicadores": {
   "adesoes": 45,
   "pessoas": 156,
-  "arrecadado_adesoes": 9620,
+  "arrecadado_adesoes": 9720,
   "doacoes": 6900,
-  "total_entradas": 16520,
-  "a_receber": 3430,
+  "total_entradas": 16620,
+  "a_receber": 3330,
   "receita_prevista": 12570,
   "total_integral": 19470,
   "custo_buffet": 9035,
@@ -14,7 +14,7 @@
   "quitados": 18,
   "em_dia": 27,
   "atrasados": 0,
-  "brindes": 22,
+  "brindes": 23,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
   "caixa_apos_buffet": 9935
@@ -241,7 +241,7 @@
    "nome": "Elisandra Lacerda da Penha",
    "pessoas": 8,
    "situacao": "EM DIA",
-   "parcelas": 1
+   "parcelas": 2
   },
   {
    "posto": "Sgt",
@@ -484,6 +484,12 @@
    "empresa": "Loja",
    "itens": "3× Ventilador",
    "qtd": 3
+  },
+  {
+   "doador": "Sgt Queiroz",
+   "empresa": "Selva Cutelaria",
+   "itens": "Faca personalizada artesanal",
+   "qtd": 1
   },
   {
    "doador": "Mercado Santa Clara",
