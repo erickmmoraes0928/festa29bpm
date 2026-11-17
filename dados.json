@@ -3,23 +3,23 @@
  "indicadores": {
   "adesoes": 54,
   "pessoas": 184,
-  "arrecadado_adesoes": 11270,
+  "arrecadado_adesoes": 11450,
   "doacoes": 6900,
-  "total_entradas": 18170,
-  "a_receber": 4180,
+  "total_entradas": 18350,
+  "a_receber": 4000,
   "receita_prevista": 14970,
   "total_integral": 21870,
   "custo_buffet": 10660,
   "despesas": 1565,
-  "quitados": 22,
-  "em_dia": 31,
+  "quitados": 23,
+  "em_dia": 30,
   "atrasados": 1,
-  "brindes": 23,
+  "brindes": 25,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
   "caixa_apos_buffet": 10710,
   "devolucoes": 480,
-  "saldo_disponivel": 16125
+  "saldo_disponivel": 16305
  },
  "faixas": [
   {
@@ -53,8 +53,8 @@
    "posto": "Ten-Cel",
    "nome": "Ronaldo Salgado Claudino",
    "pessoas": 4,
-   "situacao": "EM DIA",
-   "parcelas": 1
+   "situacao": "QUITADO",
+   "parcelas": 3
   },
   {
    "posto": "Maj",
@@ -555,6 +555,18 @@
    "empresa": "Selva Cutelaria",
    "itens": "Faca personalizada artesanal",
    "qtd": 1
+  },
+  {
+   "doador": "Loja Worlds",
+   "empresa": "Moda masculina",
+   "itens": "Embalagens/brindes masculinos",
+   "qtd": 6
+  },
+  {
+   "doador": "Nete Modas",
+   "empresa": "Moda feminina",
+   "itens": "Embalagens/brindes femininos",
+   "qtd": 4
   },
   {
    "doador": "Mercado Santa Clara",
