@@ -1,32 +1,32 @@
 {
  "atualizado_em": "17/11/2026",
  "indicadores": {
-  "adesoes": 54,
-  "pessoas": 184,
-  "arrecadado_adesoes": 11450,
+  "adesoes": 55,
+  "pessoas": 185,
+  "arrecadado_adesoes": 11870,
   "doacoes": 7900,
-  "total_entradas": 19350,
-  "a_receber": 4000,
-  "receita_prevista": 14970,
-  "total_integral": 22870,
-  "custo_buffet": 10660,
+  "total_entradas": 19770,
+  "a_receber": 3730,
+  "receita_prevista": 15120,
+  "total_integral": 23020,
+  "custo_buffet": 10735,
   "despesas": 1565,
-  "quitados": 23,
-  "em_dia": 30,
+  "quitados": 25,
+  "em_dia": 29,
   "atrasados": 1,
   "brindes": 25,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 11710,
+  "caixa_apos_buffet": 11785,
   "devolucoes": 480,
-  "saldo_disponivel": 17305
+  "saldo_disponivel": 17725
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 132,
+   "pessoas": 133,
    "valor_unitario": 75,
-   "total": 9900
+   "total": 9975
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -131,6 +131,13 @@
    "nome": "Fagner Bruno da Silva Baptista",
    "pessoas": 4,
    "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Ten",
+   "nome": "José Roberto da Silva Mello",
+   "pessoas": 1,
+   "situacao": "QUITADO",
    "parcelas": 1
   },
   {
@@ -240,6 +247,13 @@
   },
   {
    "posto": "Sgt",
+   "nome": "André Luiz Fernandes Rabelo",
+   "pessoas": 4,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "Sgt",
    "nome": "Bruno Suzano da Silva",
    "pessoas": 3,
    "situacao": "EM DIA",
@@ -299,7 +313,7 @@
    "nome": "Isaias Olla Corrêa",
    "pessoas": 3,
    "situacao": "EM DIA",
-   "parcelas": 1
+   "parcelas": 2
   },
   {
    "posto": "Sgt",
@@ -320,13 +334,6 @@
    "nome": "Karen Franciele Franco Cruz",
    "pessoas": 1,
    "situacao": "QUITADO",
-   "parcelas": 1
-  },
-  {
-   "posto": "Sgt",
-   "nome": "Luiz Rabelo",
-   "pessoas": 4,
-   "situacao": "EM DIA",
    "parcelas": 1
   },
   {
