@@ -4,11 +4,11 @@
   "adesoes": 54,
   "pessoas": 184,
   "arrecadado_adesoes": 11450,
-  "doacoes": 6900,
-  "total_entradas": 18350,
+  "doacoes": 7900,
+  "total_entradas": 19350,
   "a_receber": 4000,
   "receita_prevista": 14970,
-  "total_integral": 21870,
+  "total_integral": 22870,
   "custo_buffet": 10660,
   "despesas": 1565,
   "quitados": 23,
@@ -17,9 +17,9 @@
   "brindes": 25,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 10710,
+  "caixa_apos_buffet": 11710,
   "devolucoes": 480,
-  "saldo_disponivel": 16305
+  "saldo_disponivel": 17305
  },
  "faixas": [
   {
@@ -467,6 +467,12 @@
   {
    "doador": "Elton da Silva Soares Vieira",
    "valor": 150,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "Saul – Agro.DS",
+   "valor": 1000,
    "forma": "Pix",
    "situacao": "Recebida"
   },
