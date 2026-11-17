@@ -17,7 +17,9 @@
   "brindes": 23,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 10710
+  "caixa_apos_buffet": 10710,
+  "devolucoes": 480,
+  "saldo_disponivel": 16125
  },
  "faixas": [
   {
@@ -575,6 +577,53 @@
    "litros": 50,
    "condicao": "Pago inteiro (será aberto)",
    "preco": "A confirmar"
+  }
+ ],
+ "saidas": [
+  {
+   "data": "04/11",
+   "desc": "Devolução da diferença do reajuste da adesão (1 militar)",
+   "forma": "Pix",
+   "valor": 30,
+   "doc": "Comprovante Pix arquivado"
+  },
+  {
+   "data": "05/11",
+   "desc": "Devolução da diferença do reajuste da adesão (5 militares)",
+   "forma": "Pix",
+   "valor": 270,
+   "doc": "Comprovantes Pix arquivados"
+  },
+  {
+   "data": "05/11",
+   "desc": "Reajuste convertido em crédito para o fundo dos aniversariantes do mês (opção de 3 oficiais)",
+   "forma": "Pix",
+   "valor": 180,
+   "doc": "Comprovante Pix arquivado"
+  },
+  {
+   "data": "17/11",
+   "desc": "Reembolso de despesa da festa de aniversário do batalhão, custeada por oficial com recurso próprio. Pago com doações: cheque R$ 1.000, espécie R$ 450 e Pix R$ 115",
+   "forma": "Cheque, espécie e Pix",
+   "valor": 1565,
+   "doc": "Pix: comprovante arquivado. Cheque e espécie: recibo a anexar"
+  }
+ ],
+ "a_pagar": [
+  {
+   "item": "Buffet (Victor Festas e Eventos)",
+   "ref": "custo_buffet",
+   "situacao": "Estimado, acerto final após a confirmação de presenças"
+  },
+  {
+   "item": "Estação de crepe (Sgt Bustilho)",
+   "valor": 500,
+   "situacao": "Custo acertado, a pagar"
+  },
+  {
+   "item": "Chopp",
+   "valor": null,
+   "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ]
 }

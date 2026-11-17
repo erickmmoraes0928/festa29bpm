@@ -66,6 +66,11 @@ body{margin:0;background:var(--color-bg);color:var(--color-fg);padding-left:max(
 .fx-tbl td { padding: 9px 10px; border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
 .fx-tbl tr:last-child td { border-bottom: 0; }
 .fx-tbl .num { text-align: right; }
+.fx-fixed { table-layout: fixed; }
+.fx-fixed th:first-child, .fx-fixed td:first-child { width: 3.8rem; }
+.fx-fixed th.num, .fx-fixed td.num { width: 5.6rem; white-space: nowrap; }
+.fx-fixed td { overflow-wrap: anywhere; }
+.fx-tbl tfoot td { border-top: 1px solid var(--color-border-line); border-bottom: 0; }
 .fx-tall { max-height: 34rem; overflow: auto; }
 .fx-tall th { position: sticky; top: 0; background: var(--color-panel); }
 .fx-pill { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 0.72rem; font-weight: 600; letter-spacing: .03em; white-space: nowrap; border: 1px solid currentColor; }
@@ -115,6 +120,11 @@ body{margin:0;background:var(--color-bg);color:var(--color-fg);padding-left:max(
       <div class="s"><b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=arrecadado_adesoes">—</b> de adesões e <b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=doacoes">—</b> de doações</div>
     </div>
     <div class="fx-tile">
+      <div class="k">Saídas pagas</div>
+      <div class="v" data-draw="saidas-total">—</div>
+      <div class="s">Saldo disponível: <b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=saldo_disponivel">—</b>. Detalhe na seção Saídas.</div>
+    </div>
+    <div class="fx-tile">
       <div class="k">Valor com pagamento integral</div>
       <div class="v" data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=receita_prevista">—</div>
       <div class="s">Todas as adesões quitadas. Somando as doações: <b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=total_integral">—</b></div>
@@ -149,6 +159,37 @@ body{margin:0;background:var(--color-bg);color:var(--color-fg);padding-left:max(
         </div>
         <p class="fx-note">Ainda a receber das adesões: <b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=a_receber">—</b>. Despesas pagas até agora: <b data-draw="ind" data-fmt="brl" data-source="indicadores" data-field="valor" data-where="indicador=despesas">—</b>.</p>
         <p class="fx-note"><b>Reajuste da adesão (05/11):</b> todas as devoluções da diferença já foram pagas (R$ 480 no total). Três oficiais optaram por converter o valor (R$ 180) em crédito para o fundo dos aniversariantes do mês.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="fx-sec" id="saidas">
+    <h2 class="fx-h2">Saídas e prestação de contas</h2>
+    <div class="fx-grid">
+      <div class="fx-card">
+        <h3>Conferência do caixa</h3>
+        <p class="fx-note">Entradas menos saídas pagas, somando conta Itaú, espécie e cheques. O buffet, a estação de crepe e o chopp ainda serão pagos.</p>
+        <div class="fx-bars" data-draw="caixa"></div>
+      </div>
+      <div class="fx-card">
+        <h3>Compromissos ainda a pagar</h3>
+        <div class="fx-tbl-wrap">
+          <table class="fx-tbl">
+            <thead><tr><th>Item</th><th>Situação</th><th class="num">Valor</th></tr></thead>
+            <tbody data-draw="tab-apagar"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="fx-card">
+      <h3>Saídas realizadas</h3>
+      <p class="fx-note">Todo pagamento é lançado na planilha de controle, com comprovante arquivado. Nomes de beneficiários não são exibidos neste painel.</p>
+      <div class="fx-tbl-wrap">
+        <table class="fx-tbl fx-fixed">
+          <thead><tr><th>Data</th><th>Descrição</th><th class="num">Valor</th></tr></thead>
+          <tbody data-draw="tab-saidas"></tbody>
+          <tfoot><tr><td></td><td><b>Total de saídas pagas</b></td><td class="num"><b data-draw="saidas-total">—</b></td></tr></tfoot>
+        </table>
       </div>
     </div>
   </section>
@@ -272,6 +313,14 @@ fetch('dados.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(D=>{
   ['doacoes','Doações recebidas',C[1]],['a_receber','Parcelas a receber',C[2]],['custo_buffet','Buffet estimado',C[3]]
  ].map(([k,lab,color])=>({lab,color,v:Number(I[k]||0),txt:brl.format(Number(I[k]||0))}))));
  document.querySelectorAll('[data-draw="faixas-bar"]').forEach(el=>bars(el,D.faixas.map((r,i)=>({lab:r.faixa,color:C[i],v:Number(r.pessoas),txt:int.format(r.pessoas)+' pessoas'}))));
+ const totS=(D.saidas||[]).reduce((a,r)=>a+Number(r.valor||0),0);
+ document.querySelectorAll('[data-draw="saidas-total"]').forEach(el=>el.textContent=brl.format(totS));
+ document.querySelectorAll('[data-draw="caixa"]').forEach(el=>bars(el,[
+  {lab:'Entradas (adesões e doações)',color:C[4],v:Number(I.total_entradas||0),txt:brl.format(Number(I.total_entradas||0))},
+  {lab:'Saídas pagas',color:C[3],v:totS,txt:brl.format(totS)},
+  {lab:'Saldo disponível',color:C[0],v:Number(I.saldo_disponivel||0),txt:brl.format(Number(I.saldo_disponivel||0))}]));
+ fill('tab-saidas',D.saidas||[],r=>{const w=document.createElement('div');const a=document.createElement('div');a.textContent=r.desc;const b=document.createElement('div');b.className='fx-note';b.textContent='Forma: '+r.forma+'. Documento: '+r.doc;w.append(a,b);return [td(r.data),td(w),td(brl.format(r.valor),'num')];});
+ fill('tab-apagar',D.a_pagar||[],r=>{const v=r.ref?I[r.ref]:r.valor;return [td(r.item),td(r.situacao),td(v==null?'A definir':brl.format(v),'num')];});
  fill('tab-faixas',D.faixas,r=>[td(r.faixa),td(int.format(r.pessoas),'num'),td(r.valor_unitario?brl.format(r.valor_unitario):'Grátis','num'),td(brl.format(r.total),'num')]);
  const sec=document.getElementById('adesoes');
  if(!D.adesoes||!D.adesoes.length){if(sec)sec.hidden=true;}
