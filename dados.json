@@ -1,32 +1,32 @@
 {
  "atualizado_em": "17/11/2026",
  "indicadores": {
-  "adesoes": 55,
-  "pessoas": 185,
-  "arrecadado_adesoes": 11870,
+  "adesoes": 56,
+  "pessoas": 192,
+  "arrecadado_adesoes": 12020,
   "doacoes": 7900,
-  "total_entradas": 19770,
-  "a_receber": 3730,
-  "receita_prevista": 15120,
-  "total_integral": 23020,
-  "custo_buffet": 10735,
-  "despesas": 1565,
-  "quitados": 25,
-  "em_dia": 29,
+  "total_entradas": 19920,
+  "a_receber": 4030,
+  "receita_prevista": 15570,
+  "total_integral": 23470,
+  "custo_buffet": 11185,
+  "despesas": 1719.24,
+  "quitados": 24,
+  "em_dia": 31,
   "atrasados": 1,
   "brindes": 25,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
   "caixa_apos_buffet": 11785,
   "devolucoes": 480,
-  "saldo_disponivel": 17725
+  "saldo_disponivel": 17720.76
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 133,
+   "pessoas": 139,
    "valor_unitario": 75,
-   "total": 9975
+   "total": 10425
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -36,7 +36,7 @@
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 33,
+   "pessoas": 34,
    "valor_unitario": 0,
    "total": 0
   }
@@ -136,8 +136,8 @@
   {
    "posto": "Ten",
    "nome": "José Roberto da Silva Mello",
-   "pessoas": 1,
-   "situacao": "QUITADO",
+   "pessoas": 4,
+   "situacao": "EM DIA",
    "parcelas": 1
   },
   {
@@ -401,6 +401,13 @@
   },
   {
    "posto": "Sgt",
+   "nome": "Valeriana Correa da Silva",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
    "nome": "Valério de Cássio Ferreira",
    "pessoas": 1,
    "situacao": "QUITADO",
@@ -619,6 +626,13 @@
    "forma": "Pix",
    "valor": 180,
    "doc": "Comprovante Pix arquivado"
+  },
+  {
+   "data": "12/11",
+   "desc": "Café da manhã do Dia do Veterano (parte), pago por determinação da comandante; não é custo da festa",
+   "forma": "Pix",
+   "valor": 154.24,
+   "doc": "Extrato Itaú"
   },
   {
    "data": "17/11",
