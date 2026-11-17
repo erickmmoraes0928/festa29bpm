@@ -1,30 +1,30 @@
 {
- "atualizado_em": "16/11/2026",
+ "atualizado_em": "17/11/2026",
  "indicadores": {
-  "adesoes": 52,
-  "pessoas": 177,
-  "arrecadado_adesoes": 10920,
+  "adesoes": 53,
+  "pessoas": 180,
+  "arrecadado_adesoes": 11220,
   "doacoes": 6900,
-  "total_entradas": 17820,
+  "total_entradas": 18120,
   "a_receber": 3930,
-  "receita_prevista": 14370,
-  "total_integral": 21270,
-  "custo_buffet": 10170,
+  "receita_prevista": 14670,
+  "total_integral": 21570,
+  "custo_buffet": 10395,
   "despesas": 0,
-  "quitados": 21,
+  "quitados": 22,
   "em_dia": 31,
   "atrasados": 0,
   "brindes": 23,
   "credito_salgados": 1700,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 10600
+  "caixa_apos_buffet": 10675
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 126,
+   "pessoas": 129,
    "valor_unitario": 75,
-   "total": 9450
+   "total": 9675
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -361,6 +361,13 @@
    "pessoas": 4,
    "situacao": "EM DIA",
    "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Sheila Cristiane Andrade de Lima",
+   "pessoas": 3,
+   "situacao": "QUITADO",
+   "parcelas": 3
   },
   {
    "posto": "Sgt",
