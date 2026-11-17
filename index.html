@@ -40,7 +40,7 @@ body{margin:0;background:var(--color-bg);color:var(--color-fg);padding-left:max(
 .fx-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12.5rem), 1fr)); gap: var(--cds-gap-md); }
 .fx-tile { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: 6px; align-content: start; border-top: 3px solid var(--fx-gold); }
 .fx-tile .k { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); text-transform: uppercase; letter-spacing: .08em; }
-.fx-tile .v { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: clamp(2rem, 3.6vw, 2.6rem); line-height: 1.05; font-variant-numeric: tabular-nums; }
+.fx-tile .v { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: clamp(1.8rem, 3vw, 2.3rem); line-height: 1.05; font-variant-numeric: tabular-nums; }
 .fx-tile .s { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.45; }
 .fx-tile .s b { color: var(--color-fg); font-weight: 600; font-variant-numeric: tabular-nums; }
 
@@ -87,6 +87,14 @@ body{margin:0;background:var(--color-bg);color:var(--color-fg);padding-left:max(
   .fx-bar .fill { animation: fxgrow var(--cds-dur-slow) var(--cds-ease-out) both; transform-origin: left; }
   @keyframes fxgrow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 }
+.fx-cash { background: linear-gradient(135deg, #0c2251, #071430); border: 2px solid var(--fx-gold); border-radius: calc(var(--cds-radius) * 1.5); padding: clamp(18px, 3vw, 30px) clamp(18px, 3vw, 34px); display: grid; grid-template-columns: 1fr auto; gap: 14px 28px; align-items: center; box-shadow: 0 10px 34px rgba(0,0,0,.35), inset 0 0 0 1px rgba(226,185,85,.18); color: #fff; }
+.fx-cash .k { font-size: var(--cds-font-size-caption); text-transform: uppercase; letter-spacing: .14em; color: var(--fx-gold); font-weight: 700; }
+.fx-cash .v { font-size: clamp(2.6rem, 7vw, 4.4rem); font-weight: 800; line-height: 1.05; letter-spacing: -.02em; font-variant-numeric: tabular-nums; margin-top: 4px; }
+.fx-cash .s { font-size: var(--cds-font-size-caption); color: #c3cde0; margin-top: 6px; line-height: 1.5; }
+.fx-cash .side { display: grid; gap: 8px; min-width: 13rem; }
+.fx-cash .side div { background: rgba(255,255,255,.06); border: 1px solid rgba(226,185,85,.28); border-radius: var(--cds-radius); padding: 10px 14px; font-size: var(--cds-font-size-caption); color: #c3cde0; display: flex; justify-content: space-between; gap: 14px; }
+.fx-cash .side b { color: #fff; font-variant-numeric: tabular-nums; }
+@media (max-width: 640px) { .fx-cash { grid-template-columns: 1fr; } .fx-cash .side { min-width: 0; } }
 </style></head>
 <body>
 
@@ -107,6 +115,19 @@ body{margin:0;background:var(--color-bg);color:var(--color-fg);padding-left:max(
       <span class="fx-fact"><strong>Show</strong>Matheus Melo · part. Júnior &amp; Gustavo</span>
     </div>
   </header>
+
+  <section class="fx-cash" aria-label="Saldo em conta hoje">
+    <div>
+      <div class="k">💰 Saldo em conta hoje</div>
+      <div class="v" data-draw="cash-conta">—</div>
+      <div class="s">Conta Itaú da festa, conforme o extrato bancário de <span data-draw="cash-data">—</span>.</div>
+    </div>
+    <div class="side">
+      <div>Em espécie (caixa físico) <b data-draw="cash-esp">—</b></div>
+      <div>Saídas pagas até agora <b data-draw="saidas-total">—</b></div>
+      <div>Ainda a receber das adesões <b data-draw="cash-rec">—</b></div>
+    </div>
+  </section>
 
   <section class="fx-tiles" aria-label="Indicadores principais">
     <div class="fx-tile">
@@ -321,6 +342,10 @@ fetch('dados.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(D=>{
   {lab:'Saldo disponível',color:C[0],v:Number(I.saldo_disponivel||0),txt:brl.format(Number(I.saldo_disponivel||0))}]));
  fill('tab-saidas',D.saidas||[],r=>{const w=document.createElement('div');const a=document.createElement('div');a.textContent=r.desc;const b=document.createElement('div');b.className='fx-note';b.textContent='Forma: '+r.forma+'. Documento: '+r.doc;w.append(a,b);return [td(r.data),td(w),td(brl.format(r.valor),'num')];});
  fill('tab-apagar',D.a_pagar||[],r=>{const v=r.ref?I[r.ref]:r.valor;return [td(r.item),td(r.situacao),td(v==null?'A definir':brl.format(v),'num')];});
+ document.querySelectorAll('[data-draw="cash-conta"]').forEach(el=>el.textContent=I.saldo_conta==null?'—':brl.format(I.saldo_conta));
+ document.querySelectorAll('[data-draw="cash-data"]').forEach(el=>el.textContent=D.extrato_data||'—');
+ document.querySelectorAll('[data-draw="cash-esp"]').forEach(el=>el.textContent=brl.format(Number(I.saldo_especie||0)));
+ document.querySelectorAll('[data-draw="cash-rec"]').forEach(el=>el.textContent=brl.format(Number(I.a_receber||0)));
  fill('tab-faixas',D.faixas,r=>[td(r.faixa),td(int.format(r.pessoas),'num'),td(r.valor_unitario?brl.format(r.valor_unitario):'Grátis','num'),td(brl.format(r.total),'num')]);
  const sec=document.getElementById('adesoes');
  if(!D.adesoes||!D.adesoes.length){if(sec)sec.hidden=true;}

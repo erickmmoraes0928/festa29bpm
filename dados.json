@@ -19,7 +19,9 @@
   "custos_a_pagar": 500,
   "caixa_apos_buffet": 11785,
   "devolucoes": 480,
-  "saldo_disponivel": 17720.76
+  "saldo_disponivel": 17720.76,
+  "saldo_conta": 17658.94,
+  "saldo_especie": 0
  },
  "faixas": [
   {
@@ -658,5 +660,6 @@
    "valor": null,
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
- ]
+ ],
+ "extrato_data": "17/11/2026, às 18h10"
 }
