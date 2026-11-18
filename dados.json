@@ -1,44 +1,44 @@
 {
- "atualizado_em": "17/11/2026",
+ "atualizado_em": "18/11/2026",
  "indicadores": {
-  "adesoes": 56,
-  "pessoas": 192,
-  "arrecadado_adesoes": 12020,
-  "doacoes": 7900,
-  "total_entradas": 19920,
-  "a_receber": 4030,
-  "receita_prevista": 15570,
-  "total_integral": 23470,
-  "custo_buffet": 11185,
+  "adesoes": 63,
+  "pessoas": 216,
+  "arrecadado_adesoes": 13570,
+  "doacoes": 7954,
+  "total_entradas": 21524,
+  "a_receber": 4580,
+  "receita_prevista": 17670,
+  "total_integral": 25624,
+  "custo_buffet": 12465,
   "despesas": 1719.24,
-  "quitados": 24,
-  "em_dia": 31,
-  "atrasados": 1,
+  "quitados": 28,
+  "em_dia": 33,
+  "atrasados": 2,
   "brindes": 25,
   "credito_salgados": 1400,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 11785,
+  "caixa_apos_buffet": 12659,
   "devolucoes": 480,
-  "saldo_disponivel": 17720.76,
+  "saldo_disponivel": 19324.76,
   "saldo_conta": 17658.94,
   "saldo_especie": 0
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 139,
+   "pessoas": 155,
    "valor_unitario": 75,
-   "total": 10425
+   "total": 11625
   },
   {
    "faixa": "Adolescentes (12 a 17)",
-   "pessoas": 19,
+   "pessoas": 21,
    "valor_unitario": 40,
-   "total": 760
+   "total": 840
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 34,
+   "pessoas": 40,
    "valor_unitario": 0,
    "total": 0
   }
@@ -228,6 +228,13 @@
   },
   {
    "posto": "ST",
+   "nome": "Mauro Gomes Picanço",
+   "pessoas": 4,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "ST",
    "nome": "Max José Souza Miranda",
    "pessoas": 3,
    "situacao": "EM DIA",
@@ -354,6 +361,13 @@
   },
   {
    "posto": "Sgt",
+   "nome": "Milton Romão Freitas",
+   "pessoas": 4,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "Sgt",
    "nome": "Patricia Ferreira de Souza",
    "pessoas": 1,
    "situacao": "QUITADO",
@@ -417,6 +431,13 @@
   },
   {
    "posto": "Sgt",
+   "nome": "Vanessa de Freitas da Costa Lemos",
+   "pessoas": 4,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
    "nome": "Wallas (nome completo a confirmar)",
    "pessoas": 4,
    "situacao": "QUITADO",
@@ -430,11 +451,39 @@
    "parcelas": 1
   },
   {
+   "posto": "Cb",
+   "nome": "Phabiandres Vieira Pacheco Pontes",
+   "pessoas": 3,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Cb",
+   "nome": "Roberto Carlos Souza Amorim",
+   "pessoas": 3,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
    "posto": "Sd",
    "nome": "Jéssica Simões Coelho",
    "pessoas": 2,
    "situacao": "QUITADO",
    "parcelas": 2
+  },
+  {
+   "posto": "Sd",
+   "nome": "Patrycia Cunha Araújo Bello",
+   "pessoas": 3,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "—",
+   "nome": "Cristiano Ferreira Prado",
+   "pessoas": 3,
+   "situacao": "PENDENTE",
+   "parcelas": 0
   }
  ],
  "doacoes": [
@@ -489,6 +538,12 @@
   {
    "doador": "Saul – Agro.DS",
    "valor": 1000,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "Ten-Cel Salgado – compra de caixa de cerveja (sobra do aniversário do batalhão)",
+   "valor": 54,
    "forma": "Pix",
    "situacao": "Recebida"
   },
