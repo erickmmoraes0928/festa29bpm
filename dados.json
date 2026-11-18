@@ -1,34 +1,34 @@
 {
  "atualizado_em": "18/11/2026",
  "indicadores": {
-  "adesoes": 65,
-  "pessoas": 221,
-  "arrecadado_adesoes": 13870,
+  "adesoes": 66,
+  "pessoas": 222,
+  "arrecadado_adesoes": 13970,
   "doacoes": 9354,
-  "total_entradas": 23224,
-  "a_receber": 4730,
-  "receita_prevista": 18120,
-  "total_integral": 27474,
-  "custo_buffet": 12690,
+  "total_entradas": 23324,
+  "a_receber": 4780,
+  "receita_prevista": 18270,
+  "total_integral": 27624,
+  "custo_buffet": 12765,
   "despesas": 1839.24,
   "quitados": 29,
-  "em_dia": 34,
+  "em_dia": 35,
   "atrasados": 2,
   "brindes": 25,
   "credito_salgados": 1400,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 14284,
+  "caixa_apos_buffet": 14359,
   "devolucoes": 480,
-  "saldo_disponivel": 20904.76,
-  "saldo_conta": 20904.79,
+  "saldo_disponivel": 21004.76,
+  "saldo_conta": 21004.79,
   "saldo_especie": 0
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 158,
+   "pessoas": 159,
    "valor_unitario": 75,
-   "total": 11850
+   "total": 11925
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -190,6 +190,13 @@
    "pessoas": 6,
    "situacao": "QUITADO",
    "parcelas": 3
+  },
+  {
+   "posto": "ST",
+   "nome": "Elindomar Fernandes de Almeida",
+   "pessoas": 1,
+   "situacao": "EM DIA",
+   "parcelas": 1
   },
   {
    "posto": "ST",
@@ -761,5 +768,5 @@
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ],
- "extrato_data": "18/11/2026, às 17h45"
+ "extrato_data": "18/11/2026, às 17h58"
 }
