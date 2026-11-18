@@ -4,23 +4,23 @@
   "adesoes": 65,
   "pessoas": 221,
   "arrecadado_adesoes": 13870,
-  "doacoes": 9204,
-  "total_entradas": 23074,
+  "doacoes": 9354,
+  "total_entradas": 23224,
   "a_receber": 4730,
   "receita_prevista": 18120,
-  "total_integral": 27324,
+  "total_integral": 27474,
   "custo_buffet": 12690,
-  "despesas": 1719.24,
+  "despesas": 1839.24,
   "quitados": 29,
   "em_dia": 34,
   "atrasados": 2,
   "brindes": 25,
   "credito_salgados": 1400,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 14134,
+  "caixa_apos_buffet": 14284,
   "devolucoes": 480,
-  "saldo_disponivel": 20874.76,
-  "saldo_conta": 20754.79,
+  "saldo_disponivel": 20904.76,
+  "saldo_conta": 20904.79,
   "saldo_especie": 0
  },
  "faixas": [
@@ -580,6 +580,12 @@
    "situacao": "Recebida"
   },
   {
+   "doador": "1ª Cia (29º BPM)",
+   "valor": 150,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
    "doador": "Dandy",
    "valor": 500,
    "forma": "A definir",
@@ -729,6 +735,13 @@
    "forma": "Cheque, espécie e Pix",
    "valor": 1565,
    "doc": "Pix: comprovante arquivado. Cheque e espécie: recibo a anexar"
+  },
+  {
+   "data": "18/11",
+   "desc": "Remanejamento ao fundo dos aniversariantes: parcela de R$ 120 recebida no Nubank e mantida lá (não é custo da festa)",
+   "forma": "Transferência interna",
+   "valor": 120,
+   "doc": "Pix de 03/11 arquivado"
   }
  ],
  "a_pagar": [
@@ -748,5 +761,5 @@
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ],
- "extrato_data": "18/11/2026, às 17h35"
+ "extrato_data": "18/11/2026, às 17h45"
 }
