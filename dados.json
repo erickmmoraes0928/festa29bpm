@@ -4,11 +4,11 @@
   "adesoes": 65,
   "pessoas": 221,
   "arrecadado_adesoes": 13870,
-  "doacoes": 9054,
-  "total_entradas": 22924,
+  "doacoes": 9204,
+  "total_entradas": 23074,
   "a_receber": 4730,
   "receita_prevista": 18120,
-  "total_integral": 27174,
+  "total_integral": 27324,
   "custo_buffet": 12690,
   "despesas": 1719.24,
   "quitados": 29,
@@ -17,10 +17,10 @@
   "brindes": 25,
   "credito_salgados": 1400,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 13984,
+  "caixa_apos_buffet": 14134,
   "devolucoes": 480,
-  "saldo_disponivel": 20724.76,
-  "saldo_conta": 20604.79,
+  "saldo_disponivel": 20874.76,
+  "saldo_conta": 20754.79,
   "saldo_especie": 0
  },
  "faixas": [
@@ -574,6 +574,12 @@
    "situacao": "Recebida"
   },
   {
+   "doador": "1ª Cia (29º BPM)",
+   "valor": 150,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
    "doador": "Dandy",
    "valor": 500,
    "forma": "A definir",
@@ -742,5 +748,5 @@
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ],
- "extrato_data": "18/11/2026, às 17h15"
+ "extrato_data": "18/11/2026, às 17h35"
 }
