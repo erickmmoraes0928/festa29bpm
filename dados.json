@@ -270,6 +270,13 @@
   },
   {
    "posto": "Sgt",
+   "nome": "Cristiano Ferreira Prado",
+   "pessoas": 3,
+   "situacao": "PENDENTE",
+   "parcelas": 0
+  },
+  {
+   "posto": "Sgt",
    "nome": "Deiveson de Araujo Ribeiro",
    "pessoas": 4,
    "situacao": "EM DIA",
@@ -477,13 +484,6 @@
    "pessoas": 3,
    "situacao": "QUITADO",
    "parcelas": 3
-  },
-  {
-   "posto": "—",
-   "nome": "Cristiano Ferreira Prado",
-   "pessoas": 3,
-   "situacao": "PENDENTE",
-   "parcelas": 0
   }
  ],
  "doacoes": [
