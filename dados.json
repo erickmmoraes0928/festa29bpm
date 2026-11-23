@@ -5,7 +5,7 @@
   "pessoas": 227,
   "arrecadado_adesoes": 14350,
   "doacoes": 9968,
-  "total_entradas": 24318,
+  "total_entradas": 24331.79,
   "a_receber": 4700,
   "receita_prevista": 18570,
   "total_integral": 28538,
@@ -19,9 +19,10 @@
   "custos_a_pagar": 500,
   "caixa_apos_buffet": 15008,
   "devolucoes": 480,
-  "saldo_disponivel": 21998.76,
-  "saldo_conta": 21998.79,
-  "saldo_especie": 0
+  "saldo_disponivel": 22012.55,
+  "saldo_conta": 22012.58,
+  "saldo_especie": 0,
+  "rendimentos": 13.79
  },
  "faixas": [
   {
@@ -805,7 +806,7 @@
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ],
- "extrato_data": "23/11/2026, às 12h30",
+ "extrato_data": "23/11/2026, às 12h35",
  "cerveja": {
   "preco_latao": 4.5,
   "preco_litrao": 5.4,

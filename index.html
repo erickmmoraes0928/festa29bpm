@@ -120,10 +120,11 @@ body{margin:0;background:var(--color-bg);color:var(--color-fg);padding-left:max(
     <div>
       <div class="k">💰 Saldo em conta hoje</div>
       <div class="v" data-draw="cash-conta">—</div>
-      <div class="s">Conta Itaú da festa, calculado com todos os lançamentos e comprovantes até <span data-draw="cash-data">—</span>.</div>
+      <div class="s">Conta Itaú da festa, conferido com o extrato do Itaú. Atualizado em <span data-draw="cash-data">—</span>.</div>
     </div>
     <div class="side">
       <div>Em espécie (caixa físico) <b data-draw="cash-esp">—</b></div>
+      <div>Rendimento da poupança (já incluído) <b data-draw="cash-rend">—</b></div>
       <div>Saídas pagas até agora <b data-draw="saidas-total">—</b></div>
       <div>Ainda a receber das adesões <b data-draw="cash-rec">—</b></div>
     </div>
@@ -354,6 +355,7 @@ fetch('dados.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(D=>{
  fill('tab-apagar',D.a_pagar||[],r=>{const v=r.ref?I[r.ref]:r.valor;return [td(r.item),td(r.situacao),td(v==null?'A definir':brl.format(v),'num')];});
  document.querySelectorAll('[data-draw="cash-conta"]').forEach(el=>el.textContent=I.saldo_conta==null?'—':brl.format(I.saldo_conta));
  document.querySelectorAll('[data-draw="cash-data"]').forEach(el=>el.textContent=D.extrato_data||'—');
+ document.querySelectorAll('[data-draw="cash-rend"]').forEach(el=>el.textContent=Number(I.rendimentos||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL',minimumFractionDigits:2}));
  document.querySelectorAll('[data-draw="cash-esp"]').forEach(el=>el.textContent=brl.format(Number(I.saldo_especie||0)));
  document.querySelectorAll('[data-draw="cash-rec"]').forEach(el=>el.textContent=brl.format(Number(I.a_receber||0)));
  fill('tab-faixas',D.faixas,r=>[td(r.faixa),td(int.format(r.pessoas),'num'),td(r.valor_unitario?brl.format(r.valor_unitario):'Grátis','num'),td(brl.format(r.total),'num')]);
