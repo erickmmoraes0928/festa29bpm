@@ -1,44 +1,44 @@
 {
- "atualizado_em": "18/11/2026",
+ "atualizado_em": "23/11/2026",
  "indicadores": {
-  "adesoes": 66,
-  "pessoas": 222,
-  "arrecadado_adesoes": 13970,
-  "doacoes": 9354,
-  "total_entradas": 23324,
-  "a_receber": 4780,
-  "receita_prevista": 18270,
-  "total_integral": 27624,
-  "custo_buffet": 12765,
+  "adesoes": 67,
+  "pessoas": 227,
+  "arrecadado_adesoes": 14350,
+  "doacoes": 9968,
+  "total_entradas": 24318,
+  "a_receber": 4700,
+  "receita_prevista": 18570,
+  "total_integral": 28538,
+  "custo_buffet": 13030,
   "despesas": 1839.24,
-  "quitados": 29,
+  "quitados": 30,
   "em_dia": 35,
   "atrasados": 2,
-  "brindes": 25,
+  "brindes": 26,
   "credito_salgados": 1400,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 14359,
+  "caixa_apos_buffet": 15008,
   "devolucoes": 480,
-  "saldo_disponivel": 21004.76,
-  "saldo_conta": 21004.79,
+  "saldo_disponivel": 21998.76,
+  "saldo_conta": 21998.79,
   "saldo_especie": 0
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 159,
+   "pessoas": 162,
    "valor_unitario": 75,
-   "total": 11925
+   "total": 12150
   },
   {
    "faixa": "Adolescentes (12 a 17)",
-   "pessoas": 21,
+   "pessoas": 22,
    "valor_unitario": 40,
-   "total": 840
+   "total": 880
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 42,
+   "pessoas": 43,
    "valor_unitario": 0,
    "total": 0
   }
@@ -228,6 +228,13 @@
   },
   {
    "posto": "ST",
+   "nome": "Luciano Nascimento Roli",
+   "pessoas": 5,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "ST",
    "nome": "Manoel Vertente da Silveira Junior",
    "pessoas": 4,
    "situacao": "QUITADO",
@@ -357,7 +364,7 @@
    "nome": "Jardel Hermes da Cunha",
    "pessoas": 4,
    "situacao": "EM DIA",
-   "parcelas": 1
+   "parcelas": 2
   },
   {
    "posto": "Sgt",
@@ -593,6 +600,30 @@
    "situacao": "Recebida"
   },
   {
+   "doador": "P5 – rifa da televisão",
+   "valor": 60,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "Cap Fabrícia – compra de fardo de cerveja (sobra do aniversário do batalhão)",
+   "valor": 54,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "Pix a identificar",
+   "valor": 200,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "Pix a identificar",
+   "valor": 300,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
    "doador": "Dandy",
    "valor": 500,
    "forma": "A definir",
@@ -685,6 +716,12 @@
    "qtd": 4
   },
   {
+   "doador": "Sgt Glaucia",
+   "empresa": "Doação pessoal",
+   "itens": "Hidratante Natura Todo Dia",
+   "qtd": 1
+  },
+  {
    "doador": "Mercado Santa Clara",
    "empresa": "Mercado",
    "itens": "Cafeteira",
@@ -768,5 +805,5 @@
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ],
- "extrato_data": "18/11/2026, às 17h58"
+ "extrato_data": "23/11/2026, às 12h30"
 }
