@@ -620,7 +620,7 @@
    "situacao": "Recebida"
   },
   {
-   "doador": "Pix a identificar",
+   "doador": "Ferragens Avenida",
    "valor": 200,
    "forma": "Pix",
    "situacao": "Recebida"
@@ -807,7 +807,7 @@
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ],
- "extrato_data": "23/11/2026, às 13h45",
+ "extrato_data": "23/11/2026, às 17h55",
  "cerveja": {
   "preco_latao": 4.5,
   "preco_litrao": 5.4,
