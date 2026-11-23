@@ -1,23 +1,23 @@
 {
  "atualizado_em": "23/11/2026",
  "indicadores": {
-  "adesoes": 67,
-  "pessoas": 227,
-  "arrecadado_adesoes": 14350,
-  "doacoes": 9968,
+  "adesoes": 68,
+  "pessoas": 229,
+  "arrecadado_adesoes": 14650,
+  "doacoes": 9668,
   "total_entradas": 24331.79,
   "a_receber": 4700,
-  "receita_prevista": 18570,
+  "receita_prevista": 18870,
   "total_integral": 28538,
-  "custo_buffet": 13030,
+  "custo_buffet": 13180,
   "despesas": 1839.24,
-  "quitados": 30,
+  "quitados": 31,
   "em_dia": 35,
   "atrasados": 2,
   "brindes": 26,
   "credito_salgados": 1400,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 15008,
+  "caixa_apos_buffet": 14858,
   "devolucoes": 480,
   "saldo_disponivel": 22012.55,
   "saldo_conta": 22012.58,
@@ -27,9 +27,9 @@
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 162,
+   "pessoas": 164,
    "valor_unitario": 75,
-   "total": 12150
+   "total": 12300
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -273,6 +273,13 @@
    "posto": "Sgt",
    "nome": "André Luiz Fernandes Rabelo",
    "pessoas": 4,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Antunes Cezar Azevedo da Silveira",
+   "pessoas": 2,
    "situacao": "QUITADO",
    "parcelas": 3
   },
@@ -619,12 +626,6 @@
    "situacao": "Recebida"
   },
   {
-   "doador": "Pix a identificar",
-   "valor": 300,
-   "forma": "Pix",
-   "situacao": "Recebida"
-  },
-  {
    "doador": "Dandy",
    "valor": 500,
    "forma": "A definir",
@@ -806,7 +807,7 @@
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ],
- "extrato_data": "23/11/2026, às 12h35",
+ "extrato_data": "23/11/2026, às 13h45",
  "cerveja": {
   "preco_latao": 4.5,
   "preco_litrao": 5.4,
