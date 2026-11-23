@@ -290,6 +290,16 @@ body{margin:0;background:var(--color-bg);color:var(--color-fg);padding-left:max(
         </div>
       </div>
       <div class="fx-card">
+        <h3>Cerveja · venda da sobra</h3>
+        <p class="fx-note">Sobra da festa de aniversário do batalhão, vendida para reforçar o caixa da festa. Latão a <b data-draw="cv-latao">—</b> e litrão a <b data-draw="cv-litrao">—</b>. Já arrecadado: <b data-draw="cv-total">—</b>.</p>
+        <div class="fx-tbl-wrap">
+          <table class="fx-tbl" data-source="cerveja" data-row-key="data">
+            <thead><tr><th data-field="data">Data</th><th data-field="item">Item</th><th data-field="qtd" class="num">Qtd</th><th data-field="valor" class="num">Valor</th></tr></thead>
+            <tbody data-draw="tab-cerveja"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="fx-card">
         <h3>Sem custo para a festa</h3>
         <div class="fx-free">
           <div>Show de Matheus Melo, com participação de Júnior &amp; Gustavo</div>
@@ -352,6 +362,11 @@ fetch('dados.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(D=>{
  else fill('tab-adesoes',D.adesoes,r=>[td(r.posto),td(r.nome),td(int.format(r.pessoas),'num'),td(int.format(r.parcelas)+' de 3','num'),td(pill(r.situacao))]);
  fill('tab-doacoes',D.doacoes,r=>[td(r.doador),td(pill(r.situacao)),td(r.forma),td(fmt(r.valor,'brl'),'num')]);
  fill('tab-brindes',D.brindes,r=>{const w=document.createElement('div');const n=document.createElement('div');n.textContent=r.doador;const e=document.createElement('div');e.className='fx-note';e.textContent=r.empresa||'';w.append(n,e);return [td(w),td(r.itens),td(int.format(r.qtd),'num')];});
+ const CV=D.cerveja||{vendas:[]};
+ document.querySelectorAll('[data-draw="cv-latao"]').forEach(el=>el.textContent=Number(CV.preco_latao||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL',minimumFractionDigits:2}));
+ document.querySelectorAll('[data-draw="cv-litrao"]').forEach(el=>el.textContent=Number(CV.preco_litrao||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL',minimumFractionDigits:2}));
+ document.querySelectorAll('[data-draw="cv-total"]').forEach(el=>el.textContent=brl.format((CV.vendas||[]).reduce((a,r)=>a+Number(r.valor||0),0)));
+ fill('tab-cerveja',CV.vendas||[],r=>[td(r.data),td(r.item),td(int.format(r.qtd),'num'),td(brl.format(r.valor),'num')]);
  fill('tab-bebidas',D.bebidas,r=>[td(r.item),td(int.format(r.barris),'num'),td(int.format(r.litros)+' L','num'),td(r.condicao),td(r.preco)]);
 }).catch(()=>{document.querySelectorAll('[data-draw]').forEach(el=>{if(el.tagName!=='TBODY')el.textContent='—';});});
 })();

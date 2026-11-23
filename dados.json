@@ -805,5 +805,23 @@
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ],
- "extrato_data": "23/11/2026, às 12h30"
+ "extrato_data": "23/11/2026, às 12h30",
+ "cerveja": {
+  "preco_latao": 4.5,
+  "preco_litrao": 5.4,
+  "vendas": [
+   {
+    "data": "18/11",
+    "item": "Latão (fardo)",
+    "qtd": 12,
+    "valor": 54
+   },
+   {
+    "data": "23/11",
+    "item": "Latão (fardo)",
+    "qtd": 12,
+    "valor": 54
+   }
+  ]
+ }
 }
