@@ -291,6 +291,16 @@ body{margin:0;background:var(--color-bg);color:var(--color-fg);padding-left:max(
         </div>
       </div>
       <div class="fx-card">
+        <h3>Estoque de bebidas</h3>
+        <p class="fx-note">O que já temos guardado, sem custo adicional para a festa.</p>
+        <div class="fx-tbl-wrap">
+          <table class="fx-tbl" data-source="estoque" data-row-key="item">
+            <thead><tr><th data-field="item">Item</th><th data-field="qtd" class="num">Quantidade</th><th data-field="obs">Observação</th></tr></thead>
+            <tbody data-draw="tab-estoque"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="fx-card">
         <h3>Cerveja · venda da sobra</h3>
         <p class="fx-note">Sobra da festa de aniversário do batalhão, vendida para reforçar o caixa da festa. Latão a <b data-draw="cv-latao">—</b> e litrão a <b data-draw="cv-litrao">—</b>. Já arrecadado: <b data-draw="cv-total">—</b>.</p>
         <div class="fx-tbl-wrap">
@@ -369,6 +379,7 @@ fetch('dados.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(D=>{
  document.querySelectorAll('[data-draw="cv-litrao"]').forEach(el=>el.textContent=Number(CV.preco_litrao||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL',minimumFractionDigits:2}));
  document.querySelectorAll('[data-draw="cv-total"]').forEach(el=>el.textContent=brl.format((CV.vendas||[]).reduce((a,r)=>a+Number(r.valor||0),0)));
  fill('tab-cerveja',CV.vendas||[],r=>[td(r.data),td(r.item),td(int.format(r.qtd),'num'),td(brl.format(r.valor),'num')]);
+ fill('tab-estoque',D.estoque||[],r=>[td(r.item),td(int.format(r.qtd)+' '+(r.un||''),'num'),td(r.obs||'')]);
  fill('tab-bebidas',D.bebidas,r=>[td(r.item),td(int.format(r.barris),'num'),td(int.format(r.litros)+' L','num'),td(r.condicao),td(r.preco)]);
 }).catch(()=>{document.querySelectorAll('[data-draw]').forEach(el=>{if(el.tagName!=='TBODY')el.textContent='—';});});
 })();
