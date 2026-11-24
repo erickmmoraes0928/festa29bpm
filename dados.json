@@ -1,23 +1,23 @@
 {
- "atualizado_em": "23/11/2026",
+ "atualizado_em": "24/11/2026",
  "indicadores": {
-  "adesoes": 68,
-  "pessoas": 229,
+  "adesoes": 70,
+  "pessoas": 235,
   "arrecadado_adesoes": 14650,
   "doacoes": 9668,
   "total_entradas": 24331.79,
-  "a_receber": 4700,
-  "receita_prevista": 18870,
-  "total_integral": 28538,
-  "custo_buffet": 13180,
+  "a_receber": 5300,
+  "receita_prevista": 19470,
+  "total_integral": 29138,
+  "custo_buffet": 13595,
   "despesas": 1839.24,
   "quitados": 31,
   "em_dia": 35,
-  "atrasados": 2,
+  "atrasados": 4,
   "brindes": 26,
   "credito_salgados": 1400,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 14858,
+  "caixa_apos_buffet": 15043,
   "devolucoes": 480,
   "saldo_disponivel": 22012.55,
   "saldo_conta": 22012.58,
@@ -27,15 +27,15 @@
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 164,
+   "pessoas": 169,
    "valor_unitario": 75,
-   "total": 12300
+   "total": 12675
   },
   {
    "faixa": "Adolescentes (12 a 17)",
-   "pessoas": 22,
+   "pessoas": 23,
    "valor_unitario": 40,
-   "total": 880
+   "total": 920
   },
   {
    "faixa": "Crianças (até 11)",
@@ -292,6 +292,13 @@
   },
   {
    "posto": "Sgt",
+   "nome": "Arcendino (nome completo a confirmar)",
+   "pessoas": 3,
+   "situacao": "PENDENTE",
+   "parcelas": 0
+  },
+  {
+   "posto": "Sgt",
    "nome": "Bruno Suzano da Silva",
    "pessoas": 3,
    "situacao": "EM DIA",
@@ -345,6 +352,13 @@
    "pessoas": 1,
    "situacao": "QUITADO",
    "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Guedes (nome completo a confirmar)",
+   "pessoas": 3,
+   "situacao": "PENDENTE",
+   "parcelas": 0
   },
   {
    "posto": "Sgt",
@@ -807,7 +821,7 @@
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ],
- "extrato_data": "24/11/2026, às 15h50",
+ "extrato_data": "24/11/2026, às 17h15",
  "cerveja": {
   "preco_latao": 4.5,
   "preco_litrao": 5.4,
