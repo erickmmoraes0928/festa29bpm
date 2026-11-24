@@ -807,7 +807,7 @@
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ],
- "extrato_data": "24/11/2026, às 15h25",
+ "extrato_data": "24/11/2026, às 15h50",
  "cerveja": {
   "preco_latao": 4.5,
   "preco_litrao": 5.4,
@@ -829,9 +829,9 @@
  "estoque": [
   {
    "item": "Água mineral 500 ml",
-   "qtd": 263,
+   "qtd": 335,
    "un": "garrafas",
-   "obs": "131,5 litros"
+   "obs": "167,5 litros"
   }
  ]
 }
