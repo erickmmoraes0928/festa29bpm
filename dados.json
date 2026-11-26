@@ -3,21 +3,21 @@
  "indicadores": {
   "adesoes": 71,
   "pessoas": 238,
-  "arrecadado_adesoes": 15050,
-  "doacoes": 9968,
+  "arrecadado_adesoes": 15350,
+  "doacoes": 9668,
   "total_entradas": 25031.79,
-  "a_receber": 5200,
+  "a_receber": 4900,
   "receita_prevista": 19770,
-  "total_integral": 29738,
+  "total_integral": 29438,
   "custo_buffet": 13745,
   "despesas": 2019.24,
-  "quitados": 32,
+  "quitados": 33,
   "em_dia": 36,
-  "atrasados": 3,
+  "atrasados": 2,
   "brindes": 26,
   "credito_salgados": 1400,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 15493,
+  "caixa_apos_buffet": 15193,
   "devolucoes": 480,
   "saldo_disponivel": 22532.55,
   "saldo_conta": 22532.58,
@@ -504,8 +504,8 @@
    "posto": "Sgt",
    "nome": "Werlick (nome completo a confirmar)",
    "pessoas": 3,
-   "situacao": "PENDENTE",
-   "parcelas": 0
+   "situacao": "QUITADO",
+   "parcelas": 3
   },
   {
    "posto": "Sgt",
@@ -643,12 +643,6 @@
   {
    "doador": "Ferragens Avenida",
    "valor": 200,
-   "forma": "Pix",
-   "situacao": "Recebida"
-  },
-  {
-   "doador": "Pix a identificar",
-   "valor": 300,
    "forma": "Pix",
    "situacao": "Recebida"
   },
@@ -841,7 +835,7 @@
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ],
- "extrato_data": "26/11/2026, às 15h30",
+ "extrato_data": "26/11/2026, às 15h35",
  "cerveja": {
   "preco_latao": 4.5,
   "preco_litrao": 5.4,
