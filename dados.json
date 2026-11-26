@@ -1,35 +1,35 @@
 {
- "atualizado_em": "24/11/2026",
+ "atualizado_em": "26/11/2026",
  "indicadores": {
-  "adesoes": 70,
-  "pessoas": 235,
-  "arrecadado_adesoes": 14650,
-  "doacoes": 9668,
-  "total_entradas": 24331.79,
-  "a_receber": 5300,
-  "receita_prevista": 19470,
-  "total_integral": 29138,
-  "custo_buffet": 13595,
-  "despesas": 1839.24,
-  "quitados": 31,
-  "em_dia": 35,
-  "atrasados": 4,
+  "adesoes": 71,
+  "pessoas": 238,
+  "arrecadado_adesoes": 15050,
+  "doacoes": 9968,
+  "total_entradas": 25031.79,
+  "a_receber": 5200,
+  "receita_prevista": 19770,
+  "total_integral": 29738,
+  "custo_buffet": 13745,
+  "despesas": 2019.24,
+  "quitados": 32,
+  "em_dia": 36,
+  "atrasados": 3,
   "brindes": 26,
   "credito_salgados": 1400,
   "custos_a_pagar": 500,
-  "caixa_apos_buffet": 15043,
+  "caixa_apos_buffet": 15493,
   "devolucoes": 480,
-  "saldo_disponivel": 22012.55,
-  "saldo_conta": 22012.58,
+  "saldo_disponivel": 22532.55,
+  "saldo_conta": 22532.58,
   "saldo_especie": 0,
   "rendimentos": 13.79
  },
  "faixas": [
   {
    "faixa": "Adultos (18+)",
-   "pessoas": 169,
+   "pessoas": 171,
    "valor_unitario": 75,
-   "total": 12675
+   "total": 12825
   },
   {
    "faixa": "Adolescentes (12 a 17)",
@@ -39,7 +39,7 @@
   },
   {
    "faixa": "Crianças (até 11)",
-   "pessoas": 43,
+   "pessoas": 44,
    "valor_unitario": 0,
    "total": 0
   }
@@ -278,6 +278,13 @@
   },
   {
    "posto": "Sgt",
+   "nome": "Anselmo Arcendino Pereira",
+   "pessoas": 3,
+   "situacao": "QUITADO",
+   "parcelas": 3
+  },
+  {
+   "posto": "Sgt",
    "nome": "Antunes Cezar Azevedo da Silveira",
    "pessoas": 2,
    "situacao": "QUITADO",
@@ -289,13 +296,6 @@
    "pessoas": 4,
    "situacao": "EM DIA",
    "parcelas": 1
-  },
-  {
-   "posto": "Sgt",
-   "nome": "Arcendino (nome completo a confirmar)",
-   "pessoas": 3,
-   "situacao": "PENDENTE",
-   "parcelas": 0
   },
   {
    "posto": "Sgt",
@@ -352,13 +352,6 @@
    "pessoas": 1,
    "situacao": "QUITADO",
    "parcelas": 1
-  },
-  {
-   "posto": "Sgt",
-   "nome": "Guedes (nome completo a confirmar)",
-   "pessoas": 3,
-   "situacao": "PENDENTE",
-   "parcelas": 0
   },
   {
    "posto": "Sgt",
@@ -446,6 +439,13 @@
   },
   {
    "posto": "Sgt",
+   "nome": "Ricardo Augusto Guedes Padilha",
+   "pessoas": 3,
+   "situacao": "EM DIA",
+   "parcelas": 1
+  },
+  {
+   "posto": "Sgt",
    "nome": "Roberta Aparecida Picanço Primay",
    "pessoas": 4,
    "situacao": "EM DIA",
@@ -499,6 +499,13 @@
    "pessoas": 4,
    "situacao": "QUITADO",
    "parcelas": 3
+  },
+  {
+   "posto": "Sgt",
+   "nome": "Werlick (nome completo a confirmar)",
+   "pessoas": 3,
+   "situacao": "PENDENTE",
+   "parcelas": 0
   },
   {
    "posto": "Sgt",
@@ -636,6 +643,12 @@
   {
    "doador": "Ferragens Avenida",
    "valor": 200,
+   "forma": "Pix",
+   "situacao": "Recebida"
+  },
+  {
+   "doador": "Pix a identificar",
+   "valor": 300,
    "forma": "Pix",
    "situacao": "Recebida"
   },
@@ -802,6 +815,13 @@
    "forma": "Transferência interna",
    "valor": 120,
    "doc": "Pix de 03/11 arquivado"
+  },
+  {
+   "data": "26/11",
+   "desc": "Manutenção de viatura (fora do orçamento da festa), paga pela conta da festa",
+   "forma": "Pix",
+   "valor": 180,
+   "doc": "Comprovante arquivado"
   }
  ],
  "a_pagar": [
@@ -821,7 +841,7 @@
    "situacao": "Preço a confirmar; o chopp claro é consignado (paga só o consumido)"
   }
  ],
- "extrato_data": "24/11/2026, às 17h15",
+ "extrato_data": "26/11/2026, às 15h30",
  "cerveja": {
   "preco_latao": 4.5,
   "preco_litrao": 5.4,
